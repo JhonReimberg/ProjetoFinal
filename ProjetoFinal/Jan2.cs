@@ -75,6 +75,8 @@ namespace ProjetoFinal
 
         private void button1_Click(object sender, EventArgs e)
         {
+            MaqGA j2 = new MaqGA();
+            j2.Show();
 
         }
     }

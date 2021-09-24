@@ -49,8 +49,12 @@ namespace ProjetoFinal
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Jan2 j2 = new Jan2();
-            j2.Show();
+            
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

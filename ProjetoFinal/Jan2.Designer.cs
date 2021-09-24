@@ -148,7 +148,7 @@ namespace ProjetoFinal
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Jan2";
-            this.Text = "Máquinas Gatec";
+            this.Text = "A";
             this.Load += new System.EventHandler(this.Jan2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
