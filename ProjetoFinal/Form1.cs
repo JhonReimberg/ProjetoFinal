@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace ProjetoFinal
 {
-    public partial class Form1 : Form
+    public partial class MaqGA : Form
     {
-        public Form1()
+        public MaqGA()
         {
             InitializeComponent();
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-         
+
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -36,5 +36,25 @@ namespace ProjetoFinal
         {
 
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Jan2 j2 = new Jan2();
+            j2.Show();
+        }
     }
 }
+    
+
+
+

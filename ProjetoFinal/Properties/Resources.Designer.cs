@@ -79,5 +79,35 @@ namespace ProjetoFinal.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download_removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("download-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap fundo_azul_small_1024x721_34hcqr1riulsde6qyi4ruy {
+            get {
+                object obj = ResourceManager.GetObject("fundo-azul-small-1024x721-34hcqr1riulsde6qyi4ruy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Geometry_Texture_Blue_Light_Blue_White_background_586221_1920x1080 {
+            get {
+                object obj = ResourceManager.GetObject("Geometry_Texture_Blue_Light_Blue_White_background_586221_1920x1080", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
