@@ -113,5 +113,8 @@
   <ItemGroup>
     <None Include="Resources\Geometry_Texture_Blue_Light_Blue_White_background_586221_1920x1080.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icone-x-.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

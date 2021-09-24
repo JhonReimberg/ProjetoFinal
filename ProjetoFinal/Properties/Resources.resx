@@ -121,6 +121,9 @@
   <data name="fundo-azul-small-1024x721-34hcqr1riulsde6qyi4ruy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundo-azul-small-1024x721-34hcqr1riulsde6qyi4ruy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Geometry_Texture_Blue_Light_Blue_White_background_586221_1920x1080" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Geometry_Texture_Blue_Light_Blue_White_background_586221_1920x1080.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="desktop-pc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\desktop-pc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -130,7 +133,7 @@
   <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Geometry_Texture_Blue_Light_Blue_White_background_586221_1920x1080" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Geometry_Texture_Blue_Light_Blue_White_background_586221_1920x1080.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icone-x-" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icone-x-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

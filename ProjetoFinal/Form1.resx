@@ -126,10 +126,10 @@
     <value>NoControl</value>
   </data>
   <data name="NomeDaMaquina.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 140</value>
+    <value>17, 131</value>
   </data>
   <data name="NomeDaMaquina.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 25</value>
+    <value>129, 25</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="NomeDaMaquina.TabIndex" type="System.Int32, mscorlib">
@@ -149,13 +149,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;NomeDaMaquina.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>9</value>
   </data>
   <data name="txtNomeM.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="txtNomeM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>203, 136</value>
+    <value>144, 127</value>
   </data>
   <data name="txtNomeM.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 22</value>
@@ -173,13 +173,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtNomeM.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>8</value>
   </data>
   <data name="textBox2.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>203, 179</value>
+    <value>144, 170</value>
   </data>
   <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 22</value>
@@ -197,7 +197,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>6</value>
   </data>
   <data name="txtST.Font" type="System.Drawing.Font, System.Drawing">
     <value>Nirmala UI, 8.25pt</value>
@@ -206,7 +206,7 @@
     <value>NoControl</value>
   </data>
   <data name="txtST.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 182</value>
+    <value>17, 174</value>
   </data>
   <data name="txtST.Size" type="System.Drawing.Size, System.Drawing">
     <value>199, 25</value>
@@ -228,13 +228,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtST.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>7</value>
   </data>
   <data name="textBox3.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>203, 227</value>
+    <value>144, 214</value>
   </data>
   <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 22</value>
@@ -252,7 +252,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>4</value>
   </data>
   <data name="txtNum.Font" type="System.Drawing.Font, System.Drawing">
     <value>Nirmala UI, 8.25pt</value>
@@ -261,10 +261,10 @@
     <value>NoControl</value>
   </data>
   <data name="txtNum.Location" type="System.Drawing.Point, System.Drawing">
-    <value>49, 231</value>
+    <value>17, 218</value>
   </data>
   <data name="txtNum.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 25</value>
+    <value>101, 25</value>
   </data>
   <data name="txtNum.TabIndex" type="System.Int32, mscorlib">
     <value>4</value>
@@ -282,13 +282,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtNum.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>5</value>
   </data>
   <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>203, 273</value>
+    <value>144, 264</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 22</value>
@@ -306,7 +306,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>2</value>
   </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Nirmala UI, 8.25pt</value>
@@ -315,10 +315,10 @@
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>48, 277</value>
+    <value>17, 264</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>199, 15</value>
+    <value>110, 15</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>6</value>
@@ -336,7 +336,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>3</value>
   </data>
   <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Nirmala UI, 8.25pt</value>
@@ -345,10 +345,10 @@
     <value>NoControl</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>280, 311</value>
+    <value>227, 301</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 35</value>
+    <value>152, 39</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -366,46 +366,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="button2.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Nirmala UI, 8.25pt</value>
-  </data>
-  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
-    <value>NoControl</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>559, 181</value>
-  </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>198, 71</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>Visualizar Cadastros</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
   </data>
   <data name="pictureBox1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>218, 4</value>
+    <value>98, -4</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>286, 126</value>
+    <value>281, 109</value>
   </data>
   <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -420,7 +393,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -429,7 +402,7 @@
     <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>794, 370</value>
+    <value>503, 362</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>MV Boli, 8.25pt, style=Bold</value>
@@ -1565,6 +1538,9 @@
         AAAAAAAB//////////oAAAAAAAAAAf/////////6AAAAAAAAAAH/////////+gAAAAAAAAAB////////
         //oAAAAAAAAAAf////////////////////8=
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterParent</value>
