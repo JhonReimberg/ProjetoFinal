@@ -103,16 +103,6 @@ namespace ProjetoFinal.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Geometry_Texture_Blue_Light_Blue_White_background_586221_1920x1080 {
-            get {
-                object obj = ResourceManager.GetObject("Geometry_Texture_Blue_Light_Blue_White_background_586221_1920x1080", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap icone_x_ {
             get {
                 object obj = ResourceManager.GetObject("icone-x-", resourceCulture);
