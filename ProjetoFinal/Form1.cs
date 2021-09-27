@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace ProjetoFinal
 {
@@ -16,6 +17,10 @@ namespace ProjetoFinal
         {
             InitializeComponent();
         }
+
+        SqlConnection cn = new SqlConnection(@"Data Source=GA-DE-DK-TI-03;integrated security=SSPI; initial catalog=DBMaquinasGatec");
+        SqlCommand cm = new SqlCommand();
+        SqlDataReader dt;
 
         private void label1_Click(object sender, EventArgs e)
         {
@@ -39,7 +44,7 @@ namespace ProjetoFinal
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            cn.Open();
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
