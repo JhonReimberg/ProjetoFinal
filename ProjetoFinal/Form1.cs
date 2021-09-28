@@ -59,7 +59,12 @@ namespace ProjetoFinal
 
         private void button1_Click(object sender, EventArgs e)
         {
+            try
+            {
+                string strSQL = "Select NomeMaquina from tbl_Maquinas where NomeMaquina = " + txtNomeM;
+            }
 
+            catch (Exception erro)
         }
     }
 }
