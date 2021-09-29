@@ -56,19 +56,61 @@ namespace ProjetoFinal
         {
             
         }
-
+       
+        private void limparCampos()
+        {
+            txtNomeM.Clear();
+            txtService.Clear();
+            txtNumControle.Clear();
+            txtUserAtual.Clear();
+            
+        }
         private void button1_Click(object sender, EventArgs e)
         {
             try
             {
+                cn.Open();
                 string strSQL = "Select NomeMaquina from tbl_Maquinas where NomeMaquina = " + txtNomeM;
+                cm.Connection = cn;
+                cm.CommandText = strSQL;
+                dt = cm.ExecuteReader();
+                if (dt.HasRows)
+                {
+                    MessageBox.Show("Máquina Já cadastrada" + MessageBoxButtons.OK + MessageBoxIcon.Information);
+                }
+                else
+                {
+                    if (!dt.IsClosed) { dt.Close(); }
+                    strSQL = "insert into tbl_Maquinas(ServiceTag,NumControle,UsuarioAtual,UsuarioAntigo)values(@ServiceTag,@NumControle,@UsuarioAtual,@UsuarioAntigo)";
+                    cm.Parameters.Add("@ServiceTag", SqlDbType.VarChar).Value = txtNomeM;
+                    cm.Parameters.Add("@NumControle", SqlDbType.VarChar).Value = txtService;
+                    cm.Parameters.Add("@UsuarioAtual", SqlDbType.VarChar).Value = txtNumControle;
+                    cm.Parameters.Add("@UsuarioAntigo", SqlDbType.VarChar).Value = txtUserAtual;
+                    cm.Connection = cn;
+                    cm.CommandText = strSQL;
+
+
+                    cm.ExecuteNonQuery();
+
+                    MessageBox.Show("Cadastro Concluído Com Sucesso" + MessageBoxButtons.OK + MessageBoxIcon.Information);
+
+                    limparCampos();
+                    cm.Parameters.Clear();
+                    cn.Close();
+                    
+                }
+
+
             }
 
             catch (Exception erro)
+            {
+
+            }
         }
     }
 }
-    
+
 
 
 

@@ -175,28 +175,28 @@
   <data name="&gt;&gt;txtNomeM.ZOrder" xml:space="preserve">
     <value>8</value>
   </data>
-  <data name="textBox2.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="txtService.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
-  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtService.Location" type="System.Drawing.Point, System.Drawing">
     <value>144, 170</value>
   </data>
-  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtService.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 22</value>
   </data>
-  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtService.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
-  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
-    <value>textBox2</value>
+  <data name="&gt;&gt;txtService.Name" xml:space="preserve">
+    <value>txtService</value>
   </data>
-  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtService.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtService.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtService.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
   <data name="txtST.Font" type="System.Drawing.Font, System.Drawing">
@@ -230,28 +230,28 @@
   <data name="&gt;&gt;txtST.ZOrder" xml:space="preserve">
     <value>7</value>
   </data>
-  <data name="textBox3.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="txtNumControle.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
-  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtNumControle.Location" type="System.Drawing.Point, System.Drawing">
     <value>144, 214</value>
   </data>
-  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtNumControle.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 22</value>
   </data>
-  <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtNumControle.TabIndex" type="System.Int32, mscorlib">
     <value>5</value>
   </data>
-  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
-    <value>textBox3</value>
+  <data name="&gt;&gt;txtNumControle.Name" xml:space="preserve">
+    <value>txtNumControle</value>
   </data>
-  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtNumControle.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtNumControle.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtNumControle.ZOrder" xml:space="preserve">
     <value>4</value>
   </data>
   <data name="txtNum.Font" type="System.Drawing.Font, System.Drawing">
@@ -284,28 +284,28 @@
   <data name="&gt;&gt;txtNum.ZOrder" xml:space="preserve">
     <value>5</value>
   </data>
-  <data name="textBox1.Font" type="System.Drawing.Font, System.Drawing">
+  <data name="txtUserAtual.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+  <data name="txtUserAtual.Location" type="System.Drawing.Point, System.Drawing">
     <value>144, 264</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="txtUserAtual.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 22</value>
   </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="txtUserAtual.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
+  <data name="&gt;&gt;txtUserAtual.Name" xml:space="preserve">
+    <value>txtUserAtual</value>
   </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;txtUserAtual.Type" xml:space="preserve">
     <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtUserAtual.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;txtUserAtual.ZOrder" xml:space="preserve">
     <value>2</value>
   </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
