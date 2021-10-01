@@ -44,7 +44,7 @@ namespace ProjetoFinal
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            cn.Open();
+            
         }
 
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
@@ -70,7 +70,7 @@ namespace ProjetoFinal
             try
             {
                 cn.Open();
-                string strSQL = "Select NomeMaquina from tbl_Maquinas where NomeMaquina = " + txtNomeM;
+                string strSQL = "Select dbo.Maquina from DBMaquinasGatec where dbo.Maquina = " + txtNomeM;
                 cm.Connection = cn;
                 cm.CommandText = strSQL;
                 dt = cm.ExecuteReader();
@@ -81,7 +81,7 @@ namespace ProjetoFinal
                 else
                 {
                     if (!dt.IsClosed) { dt.Close(); }
-                    strSQL = "insert into tbl_Maquinas(ServiceTag,NumControle,UsuarioAtual,UsuarioAntigo)values(@ServiceTag,@NumControle,@UsuarioAtual,@UsuarioAntigo)";
+                    strSQL = "insert into NomeMaquina(ServiceTag,NumControle,UsuarioAtual,UsuarioAntigo)values(@ServiceTag,@NumControle,@UsuarioAtual,@UsuarioAntigo)";
                     cm.Parameters.Add("@ServiceTag", SqlDbType.VarChar).Value = txtNomeM;
                     cm.Parameters.Add("@NumControle", SqlDbType.VarChar).Value = txtService;
                     cm.Parameters.Add("@UsuarioAtual", SqlDbType.VarChar).Value = txtNumControle;
@@ -96,6 +96,7 @@ namespace ProjetoFinal
 
                     limparCampos();
                     cm.Parameters.Clear();
+
                     cn.Close();
                     
                 }
@@ -103,10 +104,13 @@ namespace ProjetoFinal
 
             }
 
-            catch (Exception erro)
+            catch (Exception)
             {
-
+                MessageBox.Show(" **** ERRO AO CADASTRAR - TENTE NOVAMENTE **** ");
+                cn.Close();
             }
+
+            
         }
     }
 }
