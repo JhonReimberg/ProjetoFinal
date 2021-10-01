@@ -70,22 +70,24 @@ namespace ProjetoFinal
             try
             {
                 cn.Open();
-                string strSQL = "Select dbo.Maquina from DBMaquinasGatec where dbo.Maquina = " + txtNomeM;
+                string strSQL = "Select count(NomeMaquina) from Maquinas where NomeMaquina ='" +txtNomeM.Text+"'";
                 cm.Connection = cn;
                 cm.CommandText = strSQL;
                 dt = cm.ExecuteReader();
+                var teste = dt.GetValue(0);
                 if (dt.HasRows)
-                {
-                    MessageBox.Show("Máquina Já cadastrada" + MessageBoxButtons.OK + MessageBoxIcon.Information);
+                                    {
+                    MessageBox.Show("Máquina Já cadastrada");
                 }
                 else
                 {
                     if (!dt.IsClosed) { dt.Close(); }
-                    strSQL = "insert into NomeMaquina(ServiceTag,NumControle,UsuarioAtual,UsuarioAntigo)values(@ServiceTag,@NumControle,@UsuarioAtual,@UsuarioAntigo)";
-                    cm.Parameters.Add("@ServiceTag", SqlDbType.VarChar).Value = txtNomeM;
-                    cm.Parameters.Add("@NumControle", SqlDbType.VarChar).Value = txtService;
-                    cm.Parameters.Add("@UsuarioAtual", SqlDbType.VarChar).Value = txtNumControle;
-                    cm.Parameters.Add("@UsuarioAntigo", SqlDbType.VarChar).Value = txtUserAtual;
+                    strSQL = "insert into Maquinas(NomeMaquina,ServiceTag,NumControle,UsuarioAtual)values(@NomeMaquina,@ServiceTag,@NumControle,@UsuarioAtual)";
+                    cm.Parameters.Add("@NomeMaquina", SqlDbType.VarChar).Value = txtNomeM;
+                    cm.Parameters.Add("@ServiceTag", SqlDbType.VarChar).Value = txtService;
+                    cm.Parameters.Add("@NumControle", SqlDbType.VarChar).Value = txtNumControle;
+                    cm.Parameters.Add("@UsuarioAtual", SqlDbType.VarChar).Value = txtUserAtual;
+                    
                     cm.Connection = cn;
                     cm.CommandText = strSQL;
 

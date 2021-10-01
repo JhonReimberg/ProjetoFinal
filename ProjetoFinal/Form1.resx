@@ -126,7 +126,7 @@
     <value>NoControl</value>
   </data>
   <data name="NomeDaMaquina.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 131</value>
+    <value>24, 121</value>
   </data>
   <data name="NomeDaMaquina.Size" type="System.Drawing.Size, System.Drawing">
     <value>129, 25</value>
@@ -155,7 +155,7 @@
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="txtNomeM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 127</value>
+    <value>151, 121</value>
   </data>
   <data name="txtNomeM.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 22</value>
@@ -179,7 +179,7 @@
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="txtService.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 170</value>
+    <value>151, 159</value>
   </data>
   <data name="txtService.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 22</value>
@@ -206,7 +206,7 @@
     <value>NoControl</value>
   </data>
   <data name="txtST.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 174</value>
+    <value>24, 163</value>
   </data>
   <data name="txtST.Size" type="System.Drawing.Size, System.Drawing">
     <value>199, 25</value>
@@ -234,7 +234,7 @@
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="txtNumControle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 214</value>
+    <value>151, 203</value>
   </data>
   <data name="txtNumControle.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 22</value>
@@ -261,7 +261,7 @@
     <value>NoControl</value>
   </data>
   <data name="txtNum.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 218</value>
+    <value>24, 207</value>
   </data>
   <data name="txtNum.Size" type="System.Drawing.Size, System.Drawing">
     <value>101, 25</value>
@@ -288,7 +288,7 @@
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="txtUserAtual.Location" type="System.Drawing.Point, System.Drawing">
-    <value>144, 264</value>
+    <value>151, 244</value>
   </data>
   <data name="txtUserAtual.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 22</value>
@@ -315,7 +315,7 @@
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 264</value>
+    <value>24, 244</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 15</value>
@@ -345,10 +345,10 @@
     <value>NoControl</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>227, 301</value>
+    <value>227, 286</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>152, 39</value>
+    <value>167, 54</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
