@@ -70,18 +70,18 @@ namespace ProjetoFinal
             try
             {
                 cn.Open();
-                string strSQL = "Select count(NomeMaquina) from Maquinas where NomeMaquina ='" +txtNomeM.Text+"'";
+                string strSQL = "Select NomeMaquina from Maquinas where NomeMaquina = " + txtNomeM;
                 cm.Connection = cn;
                 cm.CommandText = strSQL;
                 dt = cm.ExecuteReader();
                 var teste = dt.GetValue(0);
                 if (dt.HasRows)
-                                    {
+                {
                     MessageBox.Show("Máquina Já cadastrada");
                 }
                 else
                 {
-                    if (!dt.IsClosed) { dt.Close(); }
+                    
                     strSQL = "insert into Maquinas(NomeMaquina,ServiceTag,NumControle,UsuarioAtual)values(@NomeMaquina,@ServiceTag,@NumControle,@UsuarioAtual)";
                     cm.Parameters.Add("@NomeMaquina", SqlDbType.VarChar).Value = txtNomeM;
                     cm.Parameters.Add("@ServiceTag", SqlDbType.VarChar).Value = txtService;
@@ -94,7 +94,7 @@ namespace ProjetoFinal
 
                     cm.ExecuteNonQuery();
 
-                    MessageBox.Show("Cadastro Concluído Com Sucesso" + MessageBoxButtons.OK + MessageBoxIcon.Information);
+                    MessageBox.Show("Cadastro Concluído Com Sucesso");
 
                     limparCampos();
                     cm.Parameters.Clear();
