@@ -30,26 +30,26 @@ namespace ProjetoFinal
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MaqGA));
-            this.NomeDaMaquina = new System.Windows.Forms.Label();
+            this.txNM = new System.Windows.Forms.Label();
             this.txtNomeM = new System.Windows.Forms.TextBox();
             this.txtService = new System.Windows.Forms.TextBox();
             this.txtST = new System.Windows.Forms.Label();
             this.txtNumControle = new System.Windows.Forms.TextBox();
             this.txtNum = new System.Windows.Forms.Label();
             this.txtUserAtual = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.UserAtual = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // NomeDaMaquina
+            // txNM
             // 
-            this.NomeDaMaquina.BackColor = System.Drawing.SystemColors.ButtonFace;
-            resources.ApplyResources(this.NomeDaMaquina, "NomeDaMaquina");
-            this.NomeDaMaquina.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.NomeDaMaquina.Name = "NomeDaMaquina";
-            this.NomeDaMaquina.Click += new System.EventHandler(this.label1_Click);
+            this.txNM.BackColor = System.Drawing.SystemColors.ButtonFace;
+            resources.ApplyResources(this.txNM, "txNM");
+            this.txNM.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.txNM.Name = "txNM";
+            this.txNM.Click += new System.EventHandler(this.label1_Click);
             // 
             // txtNomeM
             // 
@@ -94,13 +94,13 @@ namespace ProjetoFinal
             this.txtUserAtual.ForeColor = System.Drawing.SystemColors.Desktop;
             this.txtUserAtual.Name = "txtUserAtual";
             // 
-            // label1
+            // UserAtual
             // 
-            this.label1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            resources.ApplyResources(this.label1, "label1");
-            this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label1.Name = "label1";
-            this.label1.Click += new System.EventHandler(this.label1_Click_1);
+            this.UserAtual.BackColor = System.Drawing.SystemColors.ButtonFace;
+            resources.ApplyResources(this.UserAtual, "UserAtual");
+            this.UserAtual.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.UserAtual.Name = "UserAtual";
+            this.UserAtual.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // button1
             // 
@@ -115,7 +115,6 @@ namespace ProjetoFinal
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.HighlightText;
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Image = global::ProjetoFinal.Properties.Resources.download;
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
@@ -128,13 +127,13 @@ namespace ProjetoFinal
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtUserAtual);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.UserAtual);
             this.Controls.Add(this.txtNumControle);
             this.Controls.Add(this.txtNum);
             this.Controls.Add(this.txtService);
             this.Controls.Add(this.txtST);
             this.Controls.Add(this.txtNomeM);
-            this.Controls.Add(this.NomeDaMaquina);
+            this.Controls.Add(this.txNM);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
@@ -150,14 +149,14 @@ namespace ProjetoFinal
 
         #endregion
 
-        private System.Windows.Forms.Label NomeDaMaquina;
+        private System.Windows.Forms.Label txNM;
         private System.Windows.Forms.TextBox txtNomeM;
         private System.Windows.Forms.TextBox txtService;
         private System.Windows.Forms.Label txtST;
         private System.Windows.Forms.TextBox txtNumControle;
         private System.Windows.Forms.Label txtNum;
         private System.Windows.Forms.TextBox txtUserAtual;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label UserAtual;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
     }
