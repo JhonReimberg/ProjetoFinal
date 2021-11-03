@@ -44,15 +44,14 @@ namespace ProjetoFinal
             this.txtST = new System.Windows.Forms.Label();
             this.txtNomeM = new System.Windows.Forms.TextBox();
             this.NomeDaMaquina = new System.Windows.Forms.Label();
-            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
-            this.lbldata = new System.Windows.Forms.ToolStripStatusLabel();
+            this.txtUserAntigo = new System.Windows.Forms.TextBox();
+            this.UsuarioAntigo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(580, 196);
+            this.btn1.Location = new System.Drawing.Point(555, 268);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(114, 34);
             this.btn1.TabIndex = 18;
@@ -61,40 +60,43 @@ namespace ProjetoFinal
             // 
             // btnAlterar
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(296, 255);
+            this.btnAlterar.Location = new System.Drawing.Point(44, 197);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(234, 50);
+            this.btnAlterar.Size = new System.Drawing.Size(247, 60);
             this.btnAlterar.TabIndex = 21;
             this.btnAlterar.Text = "Alterar";
             this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnCleanFilter
             // 
             this.btnCleanFilter.BackgroundImage = global::ProjetoFinal.Properties.Resources.icone_x_;
             this.btnCleanFilter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCleanFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCleanFilter.Location = new System.Drawing.Point(714, 200);
+            this.btnCleanFilter.Location = new System.Drawing.Point(675, 272);
             this.btnCleanFilter.Name = "btnCleanFilter";
             this.btnCleanFilter.Size = new System.Drawing.Size(28, 24);
             this.btnCleanFilter.TabIndex = 22;
             this.btnCleanFilter.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCleanFilter.UseVisualStyleBackColor = true;
+            this.btnCleanFilter.Click += new System.EventHandler(this.btnCleanFilter_Click);
             // 
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.pictureBox1.BackgroundImage = global::ProjetoFinal.Properties.Resources.download_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 39);
+            this.pictureBox1.Location = new System.Drawing.Point(23, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(301, 143);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 16;
             this.pictureBox1.TabStop = false;
             // 
             // btnADC
             // 
-            this.btnADC.Location = new System.Drawing.Point(24, 255);
+            this.btnADC.Location = new System.Drawing.Point(44, 124);
             this.btnADC.Name = "btnADC";
-            this.btnADC.Size = new System.Drawing.Size(234, 50);
+            this.btnADC.Size = new System.Drawing.Size(247, 65);
             this.btnADC.TabIndex = 23;
             this.btnADC.Text = "Adicionar";
             this.btnADC.UseVisualStyleBackColor = true;
@@ -102,9 +104,9 @@ namespace ProjetoFinal
             // 
             // btnEXC
             // 
-            this.btnEXC.Location = new System.Drawing.Point(571, 255);
+            this.btnEXC.Location = new System.Drawing.Point(44, 263);
             this.btnEXC.Name = "btnEXC";
-            this.btnEXC.Size = new System.Drawing.Size(232, 50);
+            this.btnEXC.Size = new System.Drawing.Size(247, 63);
             this.btnEXC.TabIndex = 24;
             this.btnEXC.Text = "Excluir";
             this.btnEXC.UseVisualStyleBackColor = true;
@@ -115,7 +117,7 @@ namespace ProjetoFinal
             this.txtUserAtual.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtUserAtual.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
             this.txtUserAtual.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.txtUserAtual.Location = new System.Drawing.Point(473, 162);
+            this.txtUserAtual.Location = new System.Drawing.Point(469, 174);
             this.txtUserAtual.Name = "txtUserAtual";
             this.txtUserAtual.Size = new System.Drawing.Size(315, 22);
             this.txtUserAtual.TabIndex = 32;
@@ -126,7 +128,7 @@ namespace ProjetoFinal
             this.label1.Font = new System.Drawing.Font("Nirmala UI", 8.25F);
             this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(346, 162);
+            this.label1.Location = new System.Drawing.Point(342, 174);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(110, 15);
             this.label1.TabIndex = 31;
@@ -137,7 +139,7 @@ namespace ProjetoFinal
             this.txtNumControle.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtNumControle.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
             this.txtNumControle.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.txtNumControle.Location = new System.Drawing.Point(473, 121);
+            this.txtNumControle.Location = new System.Drawing.Point(469, 133);
             this.txtNumControle.Name = "txtNumControle";
             this.txtNumControle.Size = new System.Drawing.Size(315, 22);
             this.txtNumControle.TabIndex = 30;
@@ -148,7 +150,7 @@ namespace ProjetoFinal
             this.txtNum.Font = new System.Drawing.Font("Nirmala UI", 8.25F);
             this.txtNum.ForeColor = System.Drawing.SystemColors.Desktop;
             this.txtNum.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txtNum.Location = new System.Drawing.Point(346, 125);
+            this.txtNum.Location = new System.Drawing.Point(342, 137);
             this.txtNum.Name = "txtNum";
             this.txtNum.Size = new System.Drawing.Size(101, 25);
             this.txtNum.TabIndex = 29;
@@ -159,7 +161,7 @@ namespace ProjetoFinal
             this.txtService.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtService.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
             this.txtService.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.txtService.Location = new System.Drawing.Point(473, 77);
+            this.txtService.Location = new System.Drawing.Point(469, 89);
             this.txtService.Name = "txtService";
             this.txtService.Size = new System.Drawing.Size(315, 22);
             this.txtService.TabIndex = 28;
@@ -170,7 +172,7 @@ namespace ProjetoFinal
             this.txtST.Font = new System.Drawing.Font("Nirmala UI", 8.25F);
             this.txtST.ForeColor = System.Drawing.SystemColors.Desktop;
             this.txtST.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txtST.Location = new System.Drawing.Point(346, 81);
+            this.txtST.Location = new System.Drawing.Point(342, 93);
             this.txtST.Name = "txtST";
             this.txtST.Size = new System.Drawing.Size(199, 25);
             this.txtST.TabIndex = 27;
@@ -180,8 +182,8 @@ namespace ProjetoFinal
             // 
             this.txtNomeM.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.txtNomeM.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
-            this.txtNomeM.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.txtNomeM.Location = new System.Drawing.Point(473, 39);
+            this.txtNomeM.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.txtNomeM.Location = new System.Drawing.Point(469, 51);
             this.txtNomeM.Name = "txtNomeM";
             this.txtNomeM.Size = new System.Drawing.Size(315, 22);
             this.txtNomeM.TabIndex = 26;
@@ -192,28 +194,35 @@ namespace ProjetoFinal
             this.NomeDaMaquina.Font = new System.Drawing.Font("Nirmala UI", 8.25F);
             this.NomeDaMaquina.ForeColor = System.Drawing.SystemColors.Desktop;
             this.NomeDaMaquina.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.NomeDaMaquina.Location = new System.Drawing.Point(346, 43);
+            this.NomeDaMaquina.Location = new System.Drawing.Point(342, 55);
             this.NomeDaMaquina.Name = "NomeDaMaquina";
             this.NomeDaMaquina.Size = new System.Drawing.Size(129, 25);
             this.NomeDaMaquina.TabIndex = 25;
             this.NomeDaMaquina.Text = "NOME DA MÁQUINA:\r\n";
             // 
-            // statusStrip1
+            // txtUserAntigo
             // 
-            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.lbldata});
-            this.statusStrip1.Location = new System.Drawing.Point(0, 320);
-            this.statusStrip1.Name = "statusStrip1";
-            this.statusStrip1.Size = new System.Drawing.Size(815, 22);
-            this.statusStrip1.TabIndex = 33;
-            this.statusStrip1.Text = "statusStrip1";
+            this.txtUserAntigo.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtUserAntigo.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
+            this.txtUserAntigo.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.txtUserAntigo.Location = new System.Drawing.Point(469, 218);
+            this.txtUserAntigo.Name = "txtUserAntigo";
+            this.txtUserAntigo.Size = new System.Drawing.Size(315, 22);
+            this.txtUserAntigo.TabIndex = 34;
+            this.txtUserAntigo.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // lbldata
+            // UsuarioAntigo
             // 
-            this.lbldata.Name = "lbldata";
-            this.lbldata.Size = new System.Drawing.Size(43, 17);
-            this.lbldata.Text = "lbldata";
-            this.lbldata.Click += new System.EventHandler(this.toolStripStatusLabel1_Click);
+            this.UsuarioAntigo.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.UsuarioAntigo.Font = new System.Drawing.Font("Nirmala UI", 8.25F);
+            this.UsuarioAntigo.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.UsuarioAntigo.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.UsuarioAntigo.Location = new System.Drawing.Point(342, 218);
+            this.UsuarioAntigo.Name = "UsuarioAntigo";
+            this.UsuarioAntigo.Size = new System.Drawing.Size(110, 15);
+            this.UsuarioAntigo.TabIndex = 33;
+            this.UsuarioAntigo.Text = "USUÁRIO ANTIGO:";
+            this.UsuarioAntigo.Click += new System.EventHandler(this.label2_Click);
             // 
             // Jan2
             // 
@@ -222,7 +231,8 @@ namespace ProjetoFinal
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(815, 342);
-            this.Controls.Add(this.statusStrip1);
+            this.Controls.Add(this.txtUserAntigo);
+            this.Controls.Add(this.UsuarioAntigo);
             this.Controls.Add(this.txtUserAtual);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNumControle);
@@ -245,8 +255,6 @@ namespace ProjetoFinal
             this.Text = "Máquinas Gatec";
             this.Load += new System.EventHandler(this.Jan2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.statusStrip1.ResumeLayout(false);
-            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -267,7 +275,7 @@ namespace ProjetoFinal
         private System.Windows.Forms.Label txtST;
         private System.Windows.Forms.TextBox txtNomeM;
         private System.Windows.Forms.Label NomeDaMaquina;
-        private System.Windows.Forms.StatusStrip statusStrip1;
-        private System.Windows.Forms.ToolStripStatusLabel lbldata;
+        private System.Windows.Forms.TextBox txtUserAntigo;
+        private System.Windows.Forms.Label UsuarioAntigo;
     }
 }

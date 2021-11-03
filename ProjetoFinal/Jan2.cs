@@ -37,5 +37,30 @@ namespace ProjetoFinal
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCleanFilter_Click(object sender, EventArgs e)
+        {
+            txtNumControle.Text = "";
+            txtUserAtual.Text = "";
+            txtUserAntigo.Text = "";
+            txtService.Text = "";
+            txtNomeM.Text = "";
+
+        }
+
+        private void btnAlterar_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
