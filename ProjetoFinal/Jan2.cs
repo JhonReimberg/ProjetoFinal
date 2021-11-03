@@ -22,8 +22,7 @@ namespace ProjetoFinal
 
         private void Jan2_Load(object sender, EventArgs e)
         {
-            
-
+           
         }      
 
        
@@ -31,6 +30,11 @@ namespace ProjetoFinal
         {
             MaqGA j2 = new MaqGA();
             j2.ShowDialog();
+
+        }
+
+        private void toolStripStatusLabel1_Click(object sender, EventArgs e)
+        {
 
         }
     }

@@ -59,26 +59,48 @@ namespace ProjetoFinal
        
         private void limparCampos()
         {
-            txtNomeM.Clear();
-            txtService.Clear();
-            txtNumControle.Clear();
-            txtUserAtual.Clear();
+            
             
         }
         private void button1_Click(object sender, EventArgs e)
         {
-            string NomedaMaquina = txNM.Text;
-            string ServiceTag = txtST.Text;
-            string UsuarioAtual = UserAtual.Text;
-            string NumControle = txtNum.Text;
-
-            if (NomedaMaquina=="" || ServiceTag== "" || UsuarioAtual=="" || NumControle == "") 
-            {
-                MessageBox.Show("Todos os campos devem ser informados");
-                 txNM.Focus();
-                 return;
+            SqlConnection sql = new SqlConnection("Integrated Security=SSPI;Persist Security Info=False;User ID=sa;Initial Catalog=DBMaquinasGatec;Data Source=GA-DE-DK-TI-03");
+            SqlCommand command = new SqlCommand("insert into Maquinas(NomeMaquina, NumControle, UsuarioAtual, ServiceTag) values(@NomeMaquina, @NumControle, @UsuarioAtual, @ServiceTag)",sql);
+            command.Parameters.Add("@NomeMaquina", SqlDbType.VarChar).Value = txtNomeM.Text;
+            command.Parameters.Add("@NumControle", SqlDbType.VarChar).Value = txtNumControle.Text;
+            command.Parameters.Add("@UsuarioAtual", SqlDbType.VarChar).Value = txtUserAtual.Text;
+            command.Parameters.Add("@ServiceTag", SqlDbType.VarChar).Value = txtService.Text;
             
+
+            if (txtNomeM.Text !="" & txtNumControle.Text !="" & txtUserAtual.Text !="" & txtService.Text !="");
+
+            try
+            {
+                sql.Open();
+                command.ExecuteNonQuery();
+                MessageBox.Show("Cadastro concluído com sucesso", "Máquinas Gatec", MessageBoxButtons.OK);
+                txtNomeM.Text = "";
+                txtNumControle.Text = "";
+                txtUserAtual.Text = "";
+                txtService.Text = "";                
+
+
             }
+
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+
+            finally
+            {
+                sql.Close();
+            }
+
+            
+
+
+
 
 
 

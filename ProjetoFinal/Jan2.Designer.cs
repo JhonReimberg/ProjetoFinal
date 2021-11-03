@@ -44,7 +44,10 @@ namespace ProjetoFinal
             this.txtST = new System.Windows.Forms.Label();
             this.txtNomeM = new System.Windows.Forms.TextBox();
             this.NomeDaMaquina = new System.Windows.Forms.Label();
+            this.statusStrip1 = new System.Windows.Forms.StatusStrip();
+            this.lbldata = new System.Windows.Forms.ToolStripStatusLabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.statusStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btn1
@@ -58,7 +61,7 @@ namespace ProjetoFinal
             // 
             // btnAlterar
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(296, 272);
+            this.btnAlterar.Location = new System.Drawing.Point(296, 255);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(234, 50);
             this.btnAlterar.TabIndex = 21;
@@ -89,7 +92,7 @@ namespace ProjetoFinal
             // 
             // btnADC
             // 
-            this.btnADC.Location = new System.Drawing.Point(24, 272);
+            this.btnADC.Location = new System.Drawing.Point(24, 255);
             this.btnADC.Name = "btnADC";
             this.btnADC.Size = new System.Drawing.Size(234, 50);
             this.btnADC.TabIndex = 23;
@@ -99,7 +102,7 @@ namespace ProjetoFinal
             // 
             // btnEXC
             // 
-            this.btnEXC.Location = new System.Drawing.Point(571, 272);
+            this.btnEXC.Location = new System.Drawing.Point(571, 255);
             this.btnEXC.Name = "btnEXC";
             this.btnEXC.Size = new System.Drawing.Size(232, 50);
             this.btnEXC.TabIndex = 24;
@@ -195,6 +198,23 @@ namespace ProjetoFinal
             this.NomeDaMaquina.TabIndex = 25;
             this.NomeDaMaquina.Text = "NOME DA MÁQUINA:\r\n";
             // 
+            // statusStrip1
+            // 
+            this.statusStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.lbldata});
+            this.statusStrip1.Location = new System.Drawing.Point(0, 320);
+            this.statusStrip1.Name = "statusStrip1";
+            this.statusStrip1.Size = new System.Drawing.Size(815, 22);
+            this.statusStrip1.TabIndex = 33;
+            this.statusStrip1.Text = "statusStrip1";
+            // 
+            // lbldata
+            // 
+            this.lbldata.Name = "lbldata";
+            this.lbldata.Size = new System.Drawing.Size(43, 17);
+            this.lbldata.Text = "lbldata";
+            this.lbldata.Click += new System.EventHandler(this.toolStripStatusLabel1_Click);
+            // 
             // Jan2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -202,6 +222,7 @@ namespace ProjetoFinal
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(815, 342);
+            this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.txtUserAtual);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNumControle);
@@ -224,6 +245,8 @@ namespace ProjetoFinal
             this.Text = "Máquinas Gatec";
             this.Load += new System.EventHandler(this.Jan2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.statusStrip1.ResumeLayout(false);
+            this.statusStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -244,5 +267,7 @@ namespace ProjetoFinal
         private System.Windows.Forms.Label txtST;
         private System.Windows.Forms.TextBox txtNomeM;
         private System.Windows.Forms.Label NomeDaMaquina;
+        private System.Windows.Forms.StatusStrip statusStrip1;
+        private System.Windows.Forms.ToolStripStatusLabel lbldata;
     }
 }
