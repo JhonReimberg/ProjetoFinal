@@ -126,7 +126,7 @@
     <value>NoControl</value>
   </data>
   <data name="txNM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 121</value>
+    <value>32, 108</value>
   </data>
   <data name="txNM.Size" type="System.Drawing.Size, System.Drawing">
     <value>129, 25</value>
@@ -149,13 +149,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txNM.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>11</value>
   </data>
   <data name="txtNomeM.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="txtNomeM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>151, 121</value>
+    <value>159, 108</value>
   </data>
   <data name="txtNomeM.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 22</value>
@@ -173,13 +173,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtNomeM.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>10</value>
   </data>
   <data name="txtService.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="txtService.Location" type="System.Drawing.Point, System.Drawing">
-    <value>151, 159</value>
+    <value>159, 146</value>
   </data>
   <data name="txtService.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 22</value>
@@ -197,7 +197,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtService.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>8</value>
   </data>
   <data name="txtST.Font" type="System.Drawing.Font, System.Drawing">
     <value>Nirmala UI, 8.25pt</value>
@@ -206,7 +206,7 @@
     <value>NoControl</value>
   </data>
   <data name="txtST.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 163</value>
+    <value>32, 150</value>
   </data>
   <data name="txtST.Size" type="System.Drawing.Size, System.Drawing">
     <value>199, 25</value>
@@ -228,13 +228,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtST.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>9</value>
   </data>
   <data name="txtNumControle.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="txtNumControle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>151, 203</value>
+    <value>159, 190</value>
   </data>
   <data name="txtNumControle.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 22</value>
@@ -252,7 +252,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtNumControle.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>6</value>
   </data>
   <data name="txtNum.Font" type="System.Drawing.Font, System.Drawing">
     <value>Nirmala UI, 8.25pt</value>
@@ -261,7 +261,7 @@
     <value>NoControl</value>
   </data>
   <data name="txtNum.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 207</value>
+    <value>32, 194</value>
   </data>
   <data name="txtNum.Size" type="System.Drawing.Size, System.Drawing">
     <value>101, 25</value>
@@ -282,13 +282,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtNum.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>7</value>
   </data>
   <data name="txtUserAtual.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="txtUserAtual.Location" type="System.Drawing.Point, System.Drawing">
-    <value>151, 244</value>
+    <value>159, 231</value>
   </data>
   <data name="txtUserAtual.Size" type="System.Drawing.Size, System.Drawing">
     <value>315, 22</value>
@@ -306,7 +306,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtUserAtual.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>4</value>
   </data>
   <data name="UserAtual.Font" type="System.Drawing.Font, System.Drawing">
     <value>Nirmala UI, 8.25pt</value>
@@ -315,7 +315,7 @@
     <value>NoControl</value>
   </data>
   <data name="UserAtual.Location" type="System.Drawing.Point, System.Drawing">
-    <value>24, 244</value>
+    <value>32, 231</value>
   </data>
   <data name="UserAtual.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 15</value>
@@ -336,7 +336,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;UserAtual.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>5</value>
   </data>
   <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
     <value>Nirmala UI, 8.25pt</value>
@@ -345,10 +345,10 @@
     <value>NoControl</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>227, 286</value>
+    <value>255, 311</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>167, 54</value>
+    <value>139, 47</value>
   </data>
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -366,7 +366,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>2</value>
   </data>
   <data name="pictureBox1.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>Stretch</value>
@@ -441,7 +441,7 @@
     <value>NoControl</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>98, -4</value>
+    <value>113, -23</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
     <value>281, 109</value>
@@ -459,6 +459,60 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="txtBoxUserAntigo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft YaHei, 8.25pt</value>
+  </data>
+  <data name="txtBoxUserAntigo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>159, 272</value>
+  </data>
+  <data name="txtBoxUserAntigo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>315, 22</value>
+  </data>
+  <data name="txtBoxUserAntigo.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;txtBoxUserAntigo.Name" xml:space="preserve">
+    <value>txtBoxUserAntigo</value>
+  </data>
+  <data name="&gt;&gt;txtBoxUserAntigo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtBoxUserAntigo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtBoxUserAntigo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtUserAntigo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Nirmala UI, 8.25pt</value>
+  </data>
+  <data name="txtUserAntigo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="txtUserAntigo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 272</value>
+  </data>
+  <data name="txtUserAntigo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 15</value>
+  </data>
+  <data name="txtUserAntigo.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="txtUserAntigo.Text" xml:space="preserve">
+    <value>USUÁRIO ANTIGO:</value>
+  </data>
+  <data name="&gt;&gt;txtUserAntigo.Name" xml:space="preserve">
+    <value>txtUserAntigo</value>
+  </data>
+  <data name="&gt;&gt;txtUserAntigo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtUserAntigo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;txtUserAntigo.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -1609,7 +1663,7 @@
     <value>CenterParent</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
-    <value>Máquinas Gatec</value>
+    <value>Máquinas Gatec v1.0</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>MaqGA</value>

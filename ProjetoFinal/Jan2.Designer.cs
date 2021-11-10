@@ -57,6 +57,7 @@ namespace ProjetoFinal
             this.btn1.TabIndex = 18;
             this.btn1.Text = "Buscar";
             this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // btnAlterar
             // 
@@ -115,6 +116,7 @@ namespace ProjetoFinal
             // txtUserAtual
             // 
             this.txtUserAtual.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtUserAtual.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtUserAtual.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
             this.txtUserAtual.ForeColor = System.Drawing.SystemColors.Desktop;
             this.txtUserAtual.Location = new System.Drawing.Point(469, 174);
@@ -137,6 +139,7 @@ namespace ProjetoFinal
             // txtNumControle
             // 
             this.txtNumControle.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtNumControle.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtNumControle.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
             this.txtNumControle.ForeColor = System.Drawing.SystemColors.Desktop;
             this.txtNumControle.Location = new System.Drawing.Point(469, 133);
@@ -159,6 +162,7 @@ namespace ProjetoFinal
             // txtService
             // 
             this.txtService.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtService.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtService.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
             this.txtService.ForeColor = System.Drawing.SystemColors.Desktop;
             this.txtService.Location = new System.Drawing.Point(469, 89);
@@ -181,8 +185,9 @@ namespace ProjetoFinal
             // txtNomeM
             // 
             this.txtNomeM.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtNomeM.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtNomeM.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
-            this.txtNomeM.ForeColor = System.Drawing.SystemColors.HotTrack;
+            this.txtNomeM.ForeColor = System.Drawing.SystemColors.ControlText;
             this.txtNomeM.Location = new System.Drawing.Point(469, 51);
             this.txtNomeM.Name = "txtNomeM";
             this.txtNomeM.Size = new System.Drawing.Size(315, 22);
@@ -203,6 +208,7 @@ namespace ProjetoFinal
             // txtUserAntigo
             // 
             this.txtUserAntigo.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtUserAntigo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtUserAntigo.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
             this.txtUserAntigo.ForeColor = System.Drawing.SystemColors.Desktop;
             this.txtUserAntigo.Location = new System.Drawing.Point(469, 218);
@@ -252,7 +258,7 @@ namespace ProjetoFinal
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Jan2";
-            this.Text = "Máquinas Gatec";
+            this.Text = "Máquinas Gatec v1.0";
             this.Load += new System.EventHandler(this.Jan2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

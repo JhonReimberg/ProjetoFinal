@@ -40,6 +40,8 @@ namespace ProjetoFinal
             this.UserAtual = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.txtBoxUserAntigo = new System.Windows.Forms.TextBox();
+            this.txtUserAntigo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,6 +56,7 @@ namespace ProjetoFinal
             // txtNomeM
             // 
             this.txtNomeM.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtNomeM.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             resources.ApplyResources(this.txtNomeM, "txtNomeM");
             this.txtNomeM.ForeColor = System.Drawing.SystemColors.Desktop;
             this.txtNomeM.Name = "txtNomeM";
@@ -61,6 +64,7 @@ namespace ProjetoFinal
             // txtService
             // 
             this.txtService.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtService.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             resources.ApplyResources(this.txtService, "txtService");
             this.txtService.ForeColor = System.Drawing.SystemColors.Desktop;
             this.txtService.Name = "txtService";
@@ -75,6 +79,7 @@ namespace ProjetoFinal
             // txtNumControle
             // 
             this.txtNumControle.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtNumControle.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             resources.ApplyResources(this.txtNumControle, "txtNumControle");
             this.txtNumControle.ForeColor = System.Drawing.SystemColors.Desktop;
             this.txtNumControle.Name = "txtNumControle";
@@ -90,6 +95,7 @@ namespace ProjetoFinal
             // txtUserAtual
             // 
             this.txtUserAtual.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtUserAtual.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             resources.ApplyResources(this.txtUserAtual, "txtUserAtual");
             this.txtUserAtual.ForeColor = System.Drawing.SystemColors.Desktop;
             this.txtUserAtual.Name = "txtUserAtual";
@@ -119,11 +125,30 @@ namespace ProjetoFinal
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
+            // txtBoxUserAntigo
+            // 
+            this.txtBoxUserAntigo.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtBoxUserAntigo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            resources.ApplyResources(this.txtBoxUserAntigo, "txtBoxUserAntigo");
+            this.txtBoxUserAntigo.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.txtBoxUserAntigo.Name = "txtBoxUserAntigo";
+            this.txtBoxUserAntigo.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // txtUserAntigo
+            // 
+            this.txtUserAntigo.BackColor = System.Drawing.SystemColors.ButtonFace;
+            resources.ApplyResources(this.txtUserAntigo, "txtUserAntigo");
+            this.txtUserAntigo.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.txtUserAntigo.Name = "txtUserAntigo";
+            this.txtUserAntigo.Click += new System.EventHandler(this.label1_Click_2);
+            // 
             // MaqGA
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
+            this.Controls.Add(this.txtBoxUserAntigo);
+            this.Controls.Add(this.txtUserAntigo);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtUserAtual);
@@ -159,6 +184,8 @@ namespace ProjetoFinal
         private System.Windows.Forms.Label UserAtual;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.TextBox txtBoxUserAntigo;
+        private System.Windows.Forms.Label txtUserAntigo;
     }
 }
 
