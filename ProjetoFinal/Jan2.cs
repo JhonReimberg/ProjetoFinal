@@ -22,7 +22,8 @@ namespace ProjetoFinal
 
         private void Jan2_Load(object sender, EventArgs e)
         {
-           
+            Form2 jan4 = new Form2();
+            jan4.Close();
         }      
 
        
@@ -66,7 +67,7 @@ namespace ProjetoFinal
         private void btn1_Click(object sender, EventArgs e)
         {
             SqlConnection sql = new SqlConnection("Integrated Security=SSPI;Persist Security Info=False;User ID=sa;Initial Catalog=DBMaquinasGatec;Data Source=GA-DE-DK-TI-03");
-            SqlCommand command = new SqlCommand("select * from Maquinas where ServiceTag=@ServiceTag and NumControle=@NumControle", sql);
+            SqlCommand command = new SqlCommand("select * from Maquinas where NomeMaquina=@NomeMaquina or UsuarioAtual=@UsuarioAtual or ServiceTag=@ServiceTag or NumControle=@NumControle", sql);
             command.Parameters.Add("@NomeMaquina", SqlDbType.VarChar).Value = txtNomeM.Text;
             command.Parameters.Add("@NumControle", SqlDbType.VarChar).Value = txtNumControle.Text;
             command.Parameters.Add("@UsuarioAtual", SqlDbType.VarChar).Value = txtUserAtual.Text;
@@ -102,7 +103,9 @@ namespace ProjetoFinal
 
         }
 
+        private void btnEXC_Click(object sender, EventArgs e)
+        {
 
-        
+        }
     }
 }

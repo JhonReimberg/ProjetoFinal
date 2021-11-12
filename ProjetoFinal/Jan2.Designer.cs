@@ -32,8 +32,6 @@ namespace ProjetoFinal
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Jan2));
             this.btn1 = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
-            this.btnCleanFilter = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btnADC = new System.Windows.Forms.Button();
             this.btnEXC = new System.Windows.Forms.Button();
             this.txtUserAtual = new System.Windows.Forms.TextBox();
@@ -46,6 +44,8 @@ namespace ProjetoFinal
             this.NomeDaMaquina = new System.Windows.Forms.Label();
             this.txtUserAntigo = new System.Windows.Forms.TextBox();
             this.UsuarioAntigo = new System.Windows.Forms.Label();
+            this.btnCleanFilter = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -69,30 +69,6 @@ namespace ProjetoFinal
             this.btnAlterar.UseVisualStyleBackColor = true;
             this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
-            // btnCleanFilter
-            // 
-            this.btnCleanFilter.BackgroundImage = global::ProjetoFinal.Properties.Resources.icone_x_;
-            this.btnCleanFilter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.btnCleanFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCleanFilter.Location = new System.Drawing.Point(675, 272);
-            this.btnCleanFilter.Name = "btnCleanFilter";
-            this.btnCleanFilter.Size = new System.Drawing.Size(28, 24);
-            this.btnCleanFilter.TabIndex = 22;
-            this.btnCleanFilter.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnCleanFilter.UseVisualStyleBackColor = true;
-            this.btnCleanFilter.Click += new System.EventHandler(this.btnCleanFilter_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.pictureBox1.BackgroundImage = global::ProjetoFinal.Properties.Resources.download_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(23, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(301, 143);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
-            // 
             // btnADC
             // 
             this.btnADC.Location = new System.Drawing.Point(44, 124);
@@ -111,7 +87,7 @@ namespace ProjetoFinal
             this.btnEXC.TabIndex = 24;
             this.btnEXC.Text = "Excluir";
             this.btnEXC.UseVisualStyleBackColor = true;
-            this.btnEXC.UseWaitCursor = true;
+            this.btnEXC.Click += new System.EventHandler(this.btnEXC_Click);
             // 
             // txtUserAtual
             // 
@@ -229,6 +205,30 @@ namespace ProjetoFinal
             this.UsuarioAntigo.TabIndex = 33;
             this.UsuarioAntigo.Text = "USUÁRIO ANTIGO:";
             this.UsuarioAntigo.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // btnCleanFilter
+            // 
+            this.btnCleanFilter.BackgroundImage = global::ProjetoFinal.Properties.Resources.icone_x_;
+            this.btnCleanFilter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCleanFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCleanFilter.Location = new System.Drawing.Point(675, 272);
+            this.btnCleanFilter.Name = "btnCleanFilter";
+            this.btnCleanFilter.Size = new System.Drawing.Size(28, 24);
+            this.btnCleanFilter.TabIndex = 22;
+            this.btnCleanFilter.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnCleanFilter.UseVisualStyleBackColor = true;
+            this.btnCleanFilter.Click += new System.EventHandler(this.btnCleanFilter_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox1.BackgroundImage = global::ProjetoFinal.Properties.Resources.download_removebg_preview;
+            this.pictureBox1.Location = new System.Drawing.Point(23, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(301, 143);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
             // 
             // Jan2
             // 
