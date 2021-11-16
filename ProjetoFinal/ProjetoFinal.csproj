@@ -63,6 +63,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Jan2.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form2.resx">
       <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form3.resx">
+      <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Jan2.resx">
       <DependentUpon>Jan2.cs</DependentUpon>
@@ -124,9 +133,6 @@
     <None Include="Resources\fundo-azul-small-1024x721-34hcqr1riulsde6qyi4ruy.png" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\download-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icone-x-.png" />
   </ItemGroup>
   <ItemGroup>
@@ -149,6 +155,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\edit_clear_icon_181105.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-506164764-170667a.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2-1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\do-agro-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NhmAYq.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1548679847-1d4ff48016c7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunset-horizon-clean-sky-5k.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

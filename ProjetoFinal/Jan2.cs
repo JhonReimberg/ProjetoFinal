@@ -61,7 +61,8 @@ namespace ProjetoFinal
 
         private void btnAlterar_Click(object sender, EventArgs e)
         {
-
+            alt_excl aoe = new alt_excl();
+            aoe.ShowDialog();
         }
 
         private void btn1_Click(object sender, EventArgs e)
@@ -216,6 +217,11 @@ namespace ProjetoFinal
                 txtUserAntigo.ForeColor = Color.Gray;
 
             }
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

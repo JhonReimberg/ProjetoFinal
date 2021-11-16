@@ -33,7 +33,6 @@ namespace ProjetoFinal
             this.btn1 = new System.Windows.Forms.Button();
             this.btnAlterar = new System.Windows.Forms.Button();
             this.btnADC = new System.Windows.Forms.Button();
-            this.btnEXC = new System.Windows.Forms.Button();
             this.txtUserAtual = new System.Windows.Forms.TextBox();
             this.txtNumControle = new System.Windows.Forms.TextBox();
             this.txtService = new System.Windows.Forms.TextBox();
@@ -46,61 +45,59 @@ namespace ProjetoFinal
             // 
             // btn1
             // 
+            this.btn1.BackColor = System.Drawing.Color.Transparent;
+            this.btn1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn1.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn1.Location = new System.Drawing.Point(179, 238);
+            this.btn1.Location = new System.Drawing.Point(119, 239);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(173, 48);
             this.btn1.TabIndex = 18;
-            this.btn1.Text = "Buscar";
-            this.btn1.UseVisualStyleBackColor = true;
+            this.btn1.Text = "BUSCAR";
+            this.btn1.UseVisualStyleBackColor = false;
             this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
             // btnAlterar
             // 
+            this.btnAlterar.BackColor = System.Drawing.Color.Transparent;
+            this.btnAlterar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAlterar.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlterar.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnAlterar.Location = new System.Drawing.Point(543, 184);
+            this.btnAlterar.Location = new System.Drawing.Point(437, 284);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(247, 60);
+            this.btnAlterar.Size = new System.Drawing.Size(155, 54);
             this.btnAlterar.TabIndex = 21;
-            this.btnAlterar.Text = "Alterar";
-            this.btnAlterar.UseVisualStyleBackColor = true;
+            this.btnAlterar.Text = "ALTERAR OU EXCLUIR";
+            this.btnAlterar.UseVisualStyleBackColor = false;
             this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnADC
             // 
-            this.btnADC.ForeColor = System.Drawing.Color.Gray;
-            this.btnADC.Location = new System.Drawing.Point(543, 111);
+            this.btnADC.BackColor = System.Drawing.Color.Transparent;
+            this.btnADC.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnADC.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnADC.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnADC.Location = new System.Drawing.Point(437, 222);
             this.btnADC.Name = "btnADC";
-            this.btnADC.Size = new System.Drawing.Size(247, 65);
+            this.btnADC.Size = new System.Drawing.Size(155, 52);
             this.btnADC.TabIndex = 23;
-            this.btnADC.Text = "Adicionar";
-            this.btnADC.UseVisualStyleBackColor = true;
+            this.btnADC.Text = "ADICIONAR";
+            this.btnADC.UseVisualStyleBackColor = false;
             this.btnADC.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // btnEXC
-            // 
-            this.btnEXC.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnEXC.Location = new System.Drawing.Point(543, 250);
-            this.btnEXC.Name = "btnEXC";
-            this.btnEXC.Size = new System.Drawing.Size(247, 63);
-            this.btnEXC.TabIndex = 24;
-            this.btnEXC.Text = "Excluir";
-            this.btnEXC.UseVisualStyleBackColor = true;
-            this.btnEXC.Click += new System.EventHandler(this.btnEXC_Click);
             // 
             // txtUserAtual
             // 
             this.txtUserAtual.AcceptsReturn = true;
             this.txtUserAtual.AcceptsTab = true;
-            this.txtUserAtual.BackColor = System.Drawing.Color.OldLace;
+            this.txtUserAtual.BackColor = System.Drawing.Color.Lavender;
             this.txtUserAtual.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtUserAtual.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
+            this.txtUserAtual.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserAtual.ForeColor = System.Drawing.Color.Gray;
-            this.txtUserAtual.Location = new System.Drawing.Point(82, 154);
+            this.txtUserAtual.Location = new System.Drawing.Point(22, 155);
             this.txtUserAtual.Name = "txtUserAtual";
-            this.txtUserAtual.Size = new System.Drawing.Size(374, 22);
+            this.txtUserAtual.Size = new System.Drawing.Size(374, 20);
             this.txtUserAtual.TabIndex = 32;
-            this.txtUserAtual.Text = "USUARIO ATUAL";
+            this.txtUserAtual.Text = "USUÁRIO ATUAL";
             this.txtUserAtual.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtUserAtual.Enter += new System.EventHandler(this.txtUserAtual_Enter);
             this.txtUserAtual.Leave += new System.EventHandler(this.txtUserAtual_Leave);
@@ -109,13 +106,13 @@ namespace ProjetoFinal
             // 
             this.txtNumControle.AcceptsReturn = true;
             this.txtNumControle.AcceptsTab = true;
-            this.txtNumControle.BackColor = System.Drawing.Color.OldLace;
+            this.txtNumControle.BackColor = System.Drawing.Color.Lavender;
             this.txtNumControle.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtNumControle.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
+            this.txtNumControle.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNumControle.ForeColor = System.Drawing.Color.Gray;
-            this.txtNumControle.Location = new System.Drawing.Point(82, 117);
+            this.txtNumControle.Location = new System.Drawing.Point(22, 118);
             this.txtNumControle.Name = "txtNumControle";
-            this.txtNumControle.Size = new System.Drawing.Size(374, 22);
+            this.txtNumControle.Size = new System.Drawing.Size(374, 20);
             this.txtNumControle.TabIndex = 30;
             this.txtNumControle.Text = "Nº CONTROLE";
             this.txtNumControle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -126,13 +123,13 @@ namespace ProjetoFinal
             // 
             this.txtService.AcceptsReturn = true;
             this.txtService.AcceptsTab = true;
-            this.txtService.BackColor = System.Drawing.Color.OldLace;
+            this.txtService.BackColor = System.Drawing.Color.Lavender;
             this.txtService.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtService.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
+            this.txtService.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtService.ForeColor = System.Drawing.Color.Gray;
-            this.txtService.Location = new System.Drawing.Point(82, 82);
+            this.txtService.Location = new System.Drawing.Point(22, 83);
             this.txtService.Name = "txtService";
-            this.txtService.Size = new System.Drawing.Size(374, 22);
+            this.txtService.Size = new System.Drawing.Size(374, 20);
             this.txtService.TabIndex = 28;
             this.txtService.Text = "SERVICE TAG";
             this.txtService.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -143,13 +140,13 @@ namespace ProjetoFinal
             // 
             this.txtNomeM.AcceptsReturn = true;
             this.txtNomeM.AcceptsTab = true;
-            this.txtNomeM.BackColor = System.Drawing.Color.OldLace;
+            this.txtNomeM.BackColor = System.Drawing.Color.Lavender;
             this.txtNomeM.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtNomeM.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
+            this.txtNomeM.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtNomeM.ForeColor = System.Drawing.Color.Gray;
-            this.txtNomeM.Location = new System.Drawing.Point(82, 45);
+            this.txtNomeM.Location = new System.Drawing.Point(22, 46);
             this.txtNomeM.Name = "txtNomeM";
-            this.txtNomeM.Size = new System.Drawing.Size(374, 22);
+            this.txtNomeM.Size = new System.Drawing.Size(374, 20);
             this.txtNomeM.TabIndex = 26;
             this.txtNomeM.Text = "NOME DA MAQUINA";
             this.txtNomeM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -160,13 +157,13 @@ namespace ProjetoFinal
             // 
             this.txtUserAntigo.AcceptsReturn = true;
             this.txtUserAntigo.AcceptsTab = true;
-            this.txtUserAntigo.BackColor = System.Drawing.Color.OldLace;
+            this.txtUserAntigo.BackColor = System.Drawing.Color.Lavender;
             this.txtUserAntigo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtUserAntigo.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
+            this.txtUserAntigo.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtUserAntigo.ForeColor = System.Drawing.Color.Gray;
-            this.txtUserAntigo.Location = new System.Drawing.Point(82, 194);
+            this.txtUserAntigo.Location = new System.Drawing.Point(22, 195);
             this.txtUserAntigo.Name = "txtUserAntigo";
-            this.txtUserAntigo.Size = new System.Drawing.Size(374, 22);
+            this.txtUserAntigo.Size = new System.Drawing.Size(374, 20);
             this.txtUserAntigo.TabIndex = 34;
             this.txtUserAntigo.Text = "USUARIO ANTIGO";
             this.txtUserAntigo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -176,10 +173,10 @@ namespace ProjetoFinal
             // 
             // btnCleanFilter
             // 
-            this.btnCleanFilter.BackgroundImage = global::ProjetoFinal.Properties.Resources.edit_clear_icon_181105;
             this.btnCleanFilter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.btnCleanFilter.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCleanFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCleanFilter.Location = new System.Drawing.Point(358, 249);
+            this.btnCleanFilter.Location = new System.Drawing.Point(298, 250);
             this.btnCleanFilter.Name = "btnCleanFilter";
             this.btnCleanFilter.Size = new System.Drawing.Size(28, 24);
             this.btnCleanFilter.TabIndex = 22;
@@ -189,36 +186,33 @@ namespace ProjetoFinal
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::ProjetoFinal.Properties.Resources.download_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(515, -13);
+            this.pictureBox1.Location = new System.Drawing.Point(523, 118);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(301, 143);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
+            this.pictureBox1.TabIndex = 35;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // Jan2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
-            this.BackColor = System.Drawing.Color.DarkKhaki;
-            this.BackgroundImage = global::ProjetoFinal.Properties.Resources.Agricultura_Giro_Rural;
+            this.BackColor = System.Drawing.Color.Gainsboro;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(897, 354);
+            this.ClientSize = new System.Drawing.Size(607, 354);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.txtUserAntigo);
             this.Controls.Add(this.txtUserAtual);
             this.Controls.Add(this.txtNumControle);
             this.Controls.Add(this.txtService);
             this.Controls.Add(this.txtNomeM);
-            this.Controls.Add(this.btnEXC);
             this.Controls.Add(this.btnADC);
             this.Controls.Add(this.btnCleanFilter);
             this.Controls.Add(this.btnAlterar);
             this.Controls.Add(this.btn1);
-            this.Controls.Add(this.pictureBox1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -233,16 +227,15 @@ namespace ProjetoFinal
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.Button btnCleanFilter;
         private System.Windows.Forms.Button btnADC;
-        private System.Windows.Forms.Button btnEXC;
         private System.Windows.Forms.TextBox txtUserAtual;
         private System.Windows.Forms.TextBox txtNumControle;
         private System.Windows.Forms.TextBox txtService;
         private System.Windows.Forms.TextBox txtNomeM;
         private System.Windows.Forms.TextBox txtUserAntigo;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
