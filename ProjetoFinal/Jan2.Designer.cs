@@ -40,16 +40,14 @@ namespace ProjetoFinal
             this.txtNomeM = new System.Windows.Forms.TextBox();
             this.txtUserAntigo = new System.Windows.Forms.TextBox();
             this.btnCleanFilter = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn1
             // 
             this.btn1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btn1.Location = new System.Drawing.Point(179, 238);
+            this.btn1.Location = new System.Drawing.Point(40, 224);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(173, 48);
+            this.btn1.Size = new System.Drawing.Size(155, 35);
             this.btn1.TabIndex = 18;
             this.btn1.Text = "Buscar";
             this.btn1.UseVisualStyleBackColor = true;
@@ -58,20 +56,20 @@ namespace ProjetoFinal
             // btnAlterar
             // 
             this.btnAlterar.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnAlterar.Location = new System.Drawing.Point(543, 184);
+            this.btnAlterar.Location = new System.Drawing.Point(248, 105);
             this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(247, 60);
+            this.btnAlterar.Size = new System.Drawing.Size(187, 60);
             this.btnAlterar.TabIndex = 21;
-            this.btnAlterar.Text = "Alterar";
+            this.btnAlterar.Text = "Confirmar Alteração";
             this.btnAlterar.UseVisualStyleBackColor = true;
             this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
             // 
             // btnADC
             // 
             this.btnADC.ForeColor = System.Drawing.Color.Gray;
-            this.btnADC.Location = new System.Drawing.Point(543, 111);
+            this.btnADC.Location = new System.Drawing.Point(248, 39);
             this.btnADC.Name = "btnADC";
-            this.btnADC.Size = new System.Drawing.Size(247, 65);
+            this.btnADC.Size = new System.Drawing.Size(187, 60);
             this.btnADC.TabIndex = 23;
             this.btnADC.Text = "Adicionar";
             this.btnADC.UseVisualStyleBackColor = true;
@@ -80,9 +78,9 @@ namespace ProjetoFinal
             // btnEXC
             // 
             this.btnEXC.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnEXC.Location = new System.Drawing.Point(543, 250);
+            this.btnEXC.Location = new System.Drawing.Point(248, 171);
             this.btnEXC.Name = "btnEXC";
-            this.btnEXC.Size = new System.Drawing.Size(247, 63);
+            this.btnEXC.Size = new System.Drawing.Size(187, 60);
             this.btnEXC.TabIndex = 24;
             this.btnEXC.Text = "Excluir";
             this.btnEXC.UseVisualStyleBackColor = true;
@@ -96,9 +94,9 @@ namespace ProjetoFinal
             this.txtUserAtual.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtUserAtual.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
             this.txtUserAtual.ForeColor = System.Drawing.Color.Gray;
-            this.txtUserAtual.Location = new System.Drawing.Point(82, 154);
+            this.txtUserAtual.Location = new System.Drawing.Point(12, 140);
             this.txtUserAtual.Name = "txtUserAtual";
-            this.txtUserAtual.Size = new System.Drawing.Size(374, 22);
+            this.txtUserAtual.Size = new System.Drawing.Size(212, 22);
             this.txtUserAtual.TabIndex = 32;
             this.txtUserAtual.Text = "USUARIO ATUAL";
             this.txtUserAtual.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -113,9 +111,9 @@ namespace ProjetoFinal
             this.txtNumControle.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtNumControle.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
             this.txtNumControle.ForeColor = System.Drawing.Color.Gray;
-            this.txtNumControle.Location = new System.Drawing.Point(82, 117);
+            this.txtNumControle.Location = new System.Drawing.Point(12, 103);
             this.txtNumControle.Name = "txtNumControle";
-            this.txtNumControle.Size = new System.Drawing.Size(374, 22);
+            this.txtNumControle.Size = new System.Drawing.Size(212, 22);
             this.txtNumControle.TabIndex = 30;
             this.txtNumControle.Text = "Nº CONTROLE";
             this.txtNumControle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -130,9 +128,9 @@ namespace ProjetoFinal
             this.txtService.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtService.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
             this.txtService.ForeColor = System.Drawing.Color.Gray;
-            this.txtService.Location = new System.Drawing.Point(82, 82);
+            this.txtService.Location = new System.Drawing.Point(12, 68);
             this.txtService.Name = "txtService";
-            this.txtService.Size = new System.Drawing.Size(374, 22);
+            this.txtService.Size = new System.Drawing.Size(212, 22);
             this.txtService.TabIndex = 28;
             this.txtService.Text = "SERVICE TAG";
             this.txtService.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -147,9 +145,9 @@ namespace ProjetoFinal
             this.txtNomeM.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtNomeM.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
             this.txtNomeM.ForeColor = System.Drawing.Color.Gray;
-            this.txtNomeM.Location = new System.Drawing.Point(82, 45);
+            this.txtNomeM.Location = new System.Drawing.Point(12, 31);
             this.txtNomeM.Name = "txtNomeM";
-            this.txtNomeM.Size = new System.Drawing.Size(374, 22);
+            this.txtNomeM.Size = new System.Drawing.Size(212, 22);
             this.txtNomeM.TabIndex = 26;
             this.txtNomeM.Text = "NOME DA MAQUINA";
             this.txtNomeM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -164,9 +162,9 @@ namespace ProjetoFinal
             this.txtUserAntigo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtUserAntigo.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
             this.txtUserAntigo.ForeColor = System.Drawing.Color.Gray;
-            this.txtUserAntigo.Location = new System.Drawing.Point(82, 194);
+            this.txtUserAntigo.Location = new System.Drawing.Point(12, 180);
             this.txtUserAntigo.Name = "txtUserAntigo";
-            this.txtUserAntigo.Size = new System.Drawing.Size(374, 22);
+            this.txtUserAntigo.Size = new System.Drawing.Size(212, 22);
             this.txtUserAntigo.TabIndex = 34;
             this.txtUserAntigo.Text = "USUARIO ANTIGO";
             this.txtUserAntigo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -179,24 +177,13 @@ namespace ProjetoFinal
             this.btnCleanFilter.BackgroundImage = global::ProjetoFinal.Properties.Resources.edit_clear_icon_181105;
             this.btnCleanFilter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCleanFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCleanFilter.Location = new System.Drawing.Point(358, 249);
+            this.btnCleanFilter.Location = new System.Drawing.Point(201, 232);
             this.btnCleanFilter.Name = "btnCleanFilter";
-            this.btnCleanFilter.Size = new System.Drawing.Size(28, 24);
+            this.btnCleanFilter.Size = new System.Drawing.Size(23, 20);
             this.btnCleanFilter.TabIndex = 22;
             this.btnCleanFilter.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCleanFilter.UseVisualStyleBackColor = true;
             this.btnCleanFilter.Click += new System.EventHandler(this.btnCleanFilter_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImage = global::ProjetoFinal.Properties.Resources.download_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(515, -13);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(301, 143);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 16;
-            this.pictureBox1.TabStop = false;
             // 
             // Jan2
             // 
@@ -204,9 +191,9 @@ namespace ProjetoFinal
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.DarkKhaki;
-            this.BackgroundImage = global::ProjetoFinal.Properties.Resources.Agricultura_Giro_Rural;
+            this.BackgroundImage = global::ProjetoFinal.Properties.Resources.do_agro_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(897, 354);
+            this.ClientSize = new System.Drawing.Size(447, 302);
             this.Controls.Add(this.txtUserAntigo);
             this.Controls.Add(this.txtUserAtual);
             this.Controls.Add(this.txtNumControle);
@@ -217,8 +204,8 @@ namespace ProjetoFinal
             this.Controls.Add(this.btnCleanFilter);
             this.Controls.Add(this.btnAlterar);
             this.Controls.Add(this.btn1);
-            this.Controls.Add(this.pictureBox1);
             this.Cursor = System.Windows.Forms.Cursors.Default;
+            this.DoubleBuffered = true;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -226,14 +213,12 @@ namespace ProjetoFinal
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Máquinas Gatec v1.0";
             this.Load += new System.EventHandler(this.Jan2_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Button btn1;
         private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.Button btnCleanFilter;

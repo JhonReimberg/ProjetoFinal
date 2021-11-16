@@ -113,6 +113,16 @@ namespace ProjetoFinal.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap do_agro_2 {
+            get {
+                object obj = ResourceManager.GetObject("do-agro-2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap download {
             get {
                 object obj = ResourceManager.GetObject("download", resourceCulture);
@@ -126,6 +136,16 @@ namespace ProjetoFinal.Properties {
         internal static System.Drawing.Bitmap download_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("download-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap download_removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("download-removebg-preview1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -166,6 +186,26 @@ namespace ProjetoFinal.Properties {
         internal static System.Drawing.Bitmap icone_x_ {
             get {
                 object obj = ResourceManager.GetObject("icone-x-", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap photo_1548679847_1d4ff48016c7 {
+            get {
+                object obj = ResourceManager.GetObject("photo-1548679847-1d4ff48016c7", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap sunset_horizon_clean_sky_5k {
+            get {
+                object obj = ResourceManager.GetObject("sunset-horizon-clean-sky-5k", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
