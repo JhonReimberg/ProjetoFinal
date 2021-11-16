@@ -65,7 +65,7 @@ namespace ProjetoFinal
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.SystemColors.InactiveCaption;
+            this.label1.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.ForeColor = System.Drawing.SystemColors.ControlText;

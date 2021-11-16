@@ -138,5 +138,17 @@
   <ItemGroup>
     <None Include="Resources\crescimento_credito-1024x636.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\137487.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Agricultura-Giro-Rural.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\editclear_104146.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\edit_clear_icon_181105.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

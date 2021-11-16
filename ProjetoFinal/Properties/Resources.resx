@@ -118,11 +118,20 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="agro" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\agro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="crescimento_credito-1024x636" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\crescimento_credito-1024x636.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="editclear_104146" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\editclear_104146.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="desktop-pc" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\desktop-pc.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Agricultura-Giro-Rural" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Agricultura-Giro-Rural.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="download-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -130,13 +139,16 @@
   <data name="icone-x-" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icone-x-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\download.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="137487" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\137487.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agro" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agro.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fundo-azul-small-1024x721-34hcqr1riulsde6qyi4ruy" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fundo-azul-small-1024x721-34hcqr1riulsde6qyi4ruy.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="crescimento_credito-1024x636" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\crescimento_credito-1024x636.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="edit_clear_icon_181105" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\edit_clear_icon_181105.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

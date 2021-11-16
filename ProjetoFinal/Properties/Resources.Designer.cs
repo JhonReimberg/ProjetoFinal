@@ -63,6 +63,26 @@ namespace ProjetoFinal.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _137487 {
+            get {
+                object obj = ResourceManager.GetObject("137487", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Agricultura_Giro_Rural {
+            get {
+                object obj = ResourceManager.GetObject("Agricultura-Giro-Rural", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap agro {
             get {
                 object obj = ResourceManager.GetObject("agro", resourceCulture);
@@ -106,6 +126,26 @@ namespace ProjetoFinal.Properties {
         internal static System.Drawing.Bitmap download_removebg_preview {
             get {
                 object obj = ResourceManager.GetObject("download-removebg-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap edit_clear_icon_181105 {
+            get {
+                object obj = ResourceManager.GetObject("edit_clear_icon_181105", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap editclear_104146 {
+            get {
+                object obj = ResourceManager.GetObject("editclear_104146", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

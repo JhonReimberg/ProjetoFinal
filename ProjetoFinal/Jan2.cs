@@ -107,5 +107,115 @@ namespace ProjetoFinal
         {
 
         }
+
+        private void txtST_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void txtNomeM_Enter(object sender, EventArgs e)
+        {
+            if(txtNomeM.Text == "NOME DA MAQUINA")
+            {
+                txtNomeM.Text = "";
+                txtNomeM.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtNomeM_Leave(object sender, EventArgs e)
+        {
+            if (txtNomeM.Text == "")
+            {
+                txtNomeM.Text = "NOME DA MAQUINA";
+                txtNomeM.ForeColor = Color.Gray;
+
+            }
+        }
+
+        private void txtService_Enter(object sender, EventArgs e)
+        {
+            if (txtService.Text == "SERVICE TAG")
+            {
+                txtService.Text = "";
+                txtService.ForeColor = Color.Black;
+            }
+        }
+
+        private void txtService_Leave(object sender, EventArgs e)
+        {
+            if (txtService.Text == "")
+            {
+                txtService.Text = "SERVICE TAG";
+                txtService.ForeColor = Color.Gray;
+
+            }
+        }
+
+        
+        private void txtNumControle_Enter(object sender, EventArgs e)
+        {
+            if (txtNumControle.Text == "Nº CONTROLE")
+            {
+                txtNumControle.Text = "";
+                txtNumControle.ForeColor = Color.Black;
+            }
+
+        }
+
+        private void txtNumControle_Leave(object sender, EventArgs e)
+        {
+            if (txtNumControle.Text == "")
+            {
+                txtNumControle.Text = "Nº CONTROLE";
+                txtNumControle.ForeColor = Color.Gray;
+
+            }
+
+        }
+        
+        private void txtUserAtual_Enter(object sender, EventArgs e)
+        {
+            if (txtUserAtual.Text == "USUARIO ATUAL")
+            {
+                txtUserAtual.Text = "";
+                txtUserAtual.ForeColor = Color.Black;
+            }
+
+        }
+
+        private void txtUserAtual_Leave(object sender, EventArgs e)
+        {
+            if (txtUserAtual.Text == "")
+            {
+                txtUserAtual.Text = "USUARIO ATUAL";
+                txtUserAtual.ForeColor = Color.Gray;
+
+            }
+        }
+
+        private void txtUserAntigo_Enter(object sender, EventArgs e)
+        {
+            if (txtUserAntigo.Text == "USUARIO ANTIGO")
+            {
+                txtUserAntigo.Text = "";
+                txtUserAntigo.ForeColor = Color.Black;
+            }
+
+        }
+
+        private void txtUserAntigo_Leave(object sender, EventArgs e)
+        {
+            if (txtUserAntigo.Text == "")
+            {
+                txtUserAntigo.Text = "USUARIO ANTIGO";
+                txtUserAntigo.ForeColor = Color.Gray;
+
+            }
+        }
     }
 }

@@ -35,15 +35,10 @@ namespace ProjetoFinal
             this.btnADC = new System.Windows.Forms.Button();
             this.btnEXC = new System.Windows.Forms.Button();
             this.txtUserAtual = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
             this.txtNumControle = new System.Windows.Forms.TextBox();
-            this.txtNum = new System.Windows.Forms.Label();
             this.txtService = new System.Windows.Forms.TextBox();
-            this.txtST = new System.Windows.Forms.Label();
             this.txtNomeM = new System.Windows.Forms.TextBox();
-            this.NomeDaMaquina = new System.Windows.Forms.Label();
             this.txtUserAntigo = new System.Windows.Forms.TextBox();
-            this.UsuarioAntigo = new System.Windows.Forms.Label();
             this.btnCleanFilter = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -51,9 +46,10 @@ namespace ProjetoFinal
             // 
             // btn1
             // 
-            this.btn1.Location = new System.Drawing.Point(555, 268);
+            this.btn1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btn1.Location = new System.Drawing.Point(179, 238);
             this.btn1.Name = "btn1";
-            this.btn1.Size = new System.Drawing.Size(114, 34);
+            this.btn1.Size = new System.Drawing.Size(173, 48);
             this.btn1.TabIndex = 18;
             this.btn1.Text = "Buscar";
             this.btn1.UseVisualStyleBackColor = true;
@@ -61,7 +57,8 @@ namespace ProjetoFinal
             // 
             // btnAlterar
             // 
-            this.btnAlterar.Location = new System.Drawing.Point(44, 197);
+            this.btnAlterar.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnAlterar.Location = new System.Drawing.Point(543, 184);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(247, 60);
             this.btnAlterar.TabIndex = 21;
@@ -71,7 +68,8 @@ namespace ProjetoFinal
             // 
             // btnADC
             // 
-            this.btnADC.Location = new System.Drawing.Point(44, 124);
+            this.btnADC.ForeColor = System.Drawing.Color.Gray;
+            this.btnADC.Location = new System.Drawing.Point(543, 111);
             this.btnADC.Name = "btnADC";
             this.btnADC.Size = new System.Drawing.Size(247, 65);
             this.btnADC.TabIndex = 23;
@@ -81,7 +79,8 @@ namespace ProjetoFinal
             // 
             // btnEXC
             // 
-            this.btnEXC.Location = new System.Drawing.Point(44, 263);
+            this.btnEXC.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnEXC.Location = new System.Drawing.Point(543, 250);
             this.btnEXC.Name = "btnEXC";
             this.btnEXC.Size = new System.Drawing.Size(247, 63);
             this.btnEXC.TabIndex = 24;
@@ -91,127 +90,96 @@ namespace ProjetoFinal
             // 
             // txtUserAtual
             // 
-            this.txtUserAtual.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtUserAtual.AcceptsReturn = true;
+            this.txtUserAtual.AcceptsTab = true;
+            this.txtUserAtual.BackColor = System.Drawing.Color.OldLace;
             this.txtUserAtual.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtUserAtual.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
-            this.txtUserAtual.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.txtUserAtual.Location = new System.Drawing.Point(469, 174);
+            this.txtUserAtual.ForeColor = System.Drawing.Color.Gray;
+            this.txtUserAtual.Location = new System.Drawing.Point(82, 154);
             this.txtUserAtual.Name = "txtUserAtual";
-            this.txtUserAtual.Size = new System.Drawing.Size(315, 22);
+            this.txtUserAtual.Size = new System.Drawing.Size(374, 22);
             this.txtUserAtual.TabIndex = 32;
-            // 
-            // label1
-            // 
-            this.label1.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Font = new System.Drawing.Font("Nirmala UI", 8.25F);
-            this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(342, 174);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(110, 15);
-            this.label1.TabIndex = 31;
-            this.label1.Text = "USUÁRIO ATUAL:";
+            this.txtUserAtual.Text = "USUARIO ATUAL";
+            this.txtUserAtual.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtUserAtual.Enter += new System.EventHandler(this.txtUserAtual_Enter);
+            this.txtUserAtual.Leave += new System.EventHandler(this.txtUserAtual_Leave);
             // 
             // txtNumControle
             // 
-            this.txtNumControle.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtNumControle.AcceptsReturn = true;
+            this.txtNumControle.AcceptsTab = true;
+            this.txtNumControle.BackColor = System.Drawing.Color.OldLace;
             this.txtNumControle.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtNumControle.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
-            this.txtNumControle.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.txtNumControle.Location = new System.Drawing.Point(469, 133);
+            this.txtNumControle.ForeColor = System.Drawing.Color.Gray;
+            this.txtNumControle.Location = new System.Drawing.Point(82, 117);
             this.txtNumControle.Name = "txtNumControle";
-            this.txtNumControle.Size = new System.Drawing.Size(315, 22);
+            this.txtNumControle.Size = new System.Drawing.Size(374, 22);
             this.txtNumControle.TabIndex = 30;
-            // 
-            // txtNum
-            // 
-            this.txtNum.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.txtNum.Font = new System.Drawing.Font("Nirmala UI", 8.25F);
-            this.txtNum.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.txtNum.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txtNum.Location = new System.Drawing.Point(342, 137);
-            this.txtNum.Name = "txtNum";
-            this.txtNum.Size = new System.Drawing.Size(101, 25);
-            this.txtNum.TabIndex = 29;
-            this.txtNum.Text = "Nº CONTROLE:";
+            this.txtNumControle.Text = "Nº CONTROLE";
+            this.txtNumControle.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNumControle.Enter += new System.EventHandler(this.txtNumControle_Enter);
+            this.txtNumControle.Leave += new System.EventHandler(this.txtNumControle_Leave);
             // 
             // txtService
             // 
-            this.txtService.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtService.AcceptsReturn = true;
+            this.txtService.AcceptsTab = true;
+            this.txtService.BackColor = System.Drawing.Color.OldLace;
             this.txtService.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtService.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
-            this.txtService.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.txtService.Location = new System.Drawing.Point(469, 89);
+            this.txtService.ForeColor = System.Drawing.Color.Gray;
+            this.txtService.Location = new System.Drawing.Point(82, 82);
             this.txtService.Name = "txtService";
-            this.txtService.Size = new System.Drawing.Size(315, 22);
+            this.txtService.Size = new System.Drawing.Size(374, 22);
             this.txtService.TabIndex = 28;
-            // 
-            // txtST
-            // 
-            this.txtST.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.txtST.Font = new System.Drawing.Font("Nirmala UI", 8.25F);
-            this.txtST.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.txtST.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.txtST.Location = new System.Drawing.Point(342, 93);
-            this.txtST.Name = "txtST";
-            this.txtST.Size = new System.Drawing.Size(199, 25);
-            this.txtST.TabIndex = 27;
-            this.txtST.Text = "SERVICE TAG:\r\n";
+            this.txtService.Text = "SERVICE TAG";
+            this.txtService.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtService.Enter += new System.EventHandler(this.txtService_Enter);
+            this.txtService.Leave += new System.EventHandler(this.txtService_Leave);
             // 
             // txtNomeM
             // 
-            this.txtNomeM.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtNomeM.AcceptsReturn = true;
+            this.txtNomeM.AcceptsTab = true;
+            this.txtNomeM.BackColor = System.Drawing.Color.OldLace;
             this.txtNomeM.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtNomeM.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
-            this.txtNomeM.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtNomeM.Location = new System.Drawing.Point(469, 51);
+            this.txtNomeM.ForeColor = System.Drawing.Color.Gray;
+            this.txtNomeM.Location = new System.Drawing.Point(82, 45);
             this.txtNomeM.Name = "txtNomeM";
-            this.txtNomeM.Size = new System.Drawing.Size(315, 22);
+            this.txtNomeM.Size = new System.Drawing.Size(374, 22);
             this.txtNomeM.TabIndex = 26;
-            // 
-            // NomeDaMaquina
-            // 
-            this.NomeDaMaquina.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.NomeDaMaquina.Font = new System.Drawing.Font("Nirmala UI", 8.25F);
-            this.NomeDaMaquina.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.NomeDaMaquina.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.NomeDaMaquina.Location = new System.Drawing.Point(342, 55);
-            this.NomeDaMaquina.Name = "NomeDaMaquina";
-            this.NomeDaMaquina.Size = new System.Drawing.Size(129, 25);
-            this.NomeDaMaquina.TabIndex = 25;
-            this.NomeDaMaquina.Text = "NOME DA MÁQUINA:\r\n";
+            this.txtNomeM.Text = "NOME DA MAQUINA";
+            this.txtNomeM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNomeM.Enter += new System.EventHandler(this.txtNomeM_Enter);
+            this.txtNomeM.Leave += new System.EventHandler(this.txtNomeM_Leave);
             // 
             // txtUserAntigo
             // 
-            this.txtUserAntigo.BackColor = System.Drawing.SystemColors.ButtonFace;
+            this.txtUserAntigo.AcceptsReturn = true;
+            this.txtUserAntigo.AcceptsTab = true;
+            this.txtUserAntigo.BackColor = System.Drawing.Color.OldLace;
             this.txtUserAntigo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtUserAntigo.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
-            this.txtUserAntigo.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.txtUserAntigo.Location = new System.Drawing.Point(469, 218);
+            this.txtUserAntigo.ForeColor = System.Drawing.Color.Gray;
+            this.txtUserAntigo.Location = new System.Drawing.Point(82, 194);
             this.txtUserAntigo.Name = "txtUserAntigo";
-            this.txtUserAntigo.Size = new System.Drawing.Size(315, 22);
+            this.txtUserAntigo.Size = new System.Drawing.Size(374, 22);
             this.txtUserAntigo.TabIndex = 34;
+            this.txtUserAntigo.Text = "USUARIO ANTIGO";
+            this.txtUserAntigo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.txtUserAntigo.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
-            // 
-            // UsuarioAntigo
-            // 
-            this.UsuarioAntigo.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.UsuarioAntigo.Font = new System.Drawing.Font("Nirmala UI", 8.25F);
-            this.UsuarioAntigo.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.UsuarioAntigo.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.UsuarioAntigo.Location = new System.Drawing.Point(342, 218);
-            this.UsuarioAntigo.Name = "UsuarioAntigo";
-            this.UsuarioAntigo.Size = new System.Drawing.Size(110, 15);
-            this.UsuarioAntigo.TabIndex = 33;
-            this.UsuarioAntigo.Text = "USUÁRIO ANTIGO:";
-            this.UsuarioAntigo.Click += new System.EventHandler(this.label2_Click);
+            this.txtUserAntigo.Enter += new System.EventHandler(this.txtUserAntigo_Enter);
+            this.txtUserAntigo.Leave += new System.EventHandler(this.txtUserAntigo_Leave);
             // 
             // btnCleanFilter
             // 
-            this.btnCleanFilter.BackgroundImage = global::ProjetoFinal.Properties.Resources.icone_x_;
+            this.btnCleanFilter.BackgroundImage = global::ProjetoFinal.Properties.Resources.edit_clear_icon_181105;
             this.btnCleanFilter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCleanFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCleanFilter.Location = new System.Drawing.Point(675, 272);
+            this.btnCleanFilter.Location = new System.Drawing.Point(358, 249);
             this.btnCleanFilter.Name = "btnCleanFilter";
             this.btnCleanFilter.Size = new System.Drawing.Size(28, 24);
             this.btnCleanFilter.TabIndex = 22;
@@ -221,9 +189,9 @@ namespace ProjetoFinal
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::ProjetoFinal.Properties.Resources.download_removebg_preview;
-            this.pictureBox1.Location = new System.Drawing.Point(23, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(515, -13);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(301, 143);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -234,19 +202,16 @@ namespace ProjetoFinal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
+            this.BackColor = System.Drawing.Color.DarkKhaki;
+            this.BackgroundImage = global::ProjetoFinal.Properties.Resources.Agricultura_Giro_Rural;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(815, 342);
+            this.ClientSize = new System.Drawing.Size(897, 354);
             this.Controls.Add(this.txtUserAntigo);
-            this.Controls.Add(this.UsuarioAntigo);
             this.Controls.Add(this.txtUserAtual);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.txtNumControle);
-            this.Controls.Add(this.txtNum);
             this.Controls.Add(this.txtService);
-            this.Controls.Add(this.txtST);
             this.Controls.Add(this.txtNomeM);
-            this.Controls.Add(this.NomeDaMaquina);
             this.Controls.Add(this.btnEXC);
             this.Controls.Add(this.btnADC);
             this.Controls.Add(this.btnCleanFilter);
@@ -258,6 +223,7 @@ namespace ProjetoFinal
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Jan2";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Máquinas Gatec v1.0";
             this.Load += new System.EventHandler(this.Jan2_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -274,14 +240,9 @@ namespace ProjetoFinal
         private System.Windows.Forms.Button btnADC;
         private System.Windows.Forms.Button btnEXC;
         private System.Windows.Forms.TextBox txtUserAtual;
-        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtNumControle;
-        private System.Windows.Forms.Label txtNum;
         private System.Windows.Forms.TextBox txtService;
-        private System.Windows.Forms.Label txtST;
         private System.Windows.Forms.TextBox txtNomeM;
-        private System.Windows.Forms.Label NomeDaMaquina;
         private System.Windows.Forms.TextBox txtUserAntigo;
-        private System.Windows.Forms.Label UsuarioAntigo;
     }
 }
