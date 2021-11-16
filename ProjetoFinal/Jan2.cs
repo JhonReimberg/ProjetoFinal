@@ -29,8 +29,7 @@ namespace ProjetoFinal
        
         private void button1_Click(object sender, EventArgs e)
         {
-            MaqGA j2 = new MaqGA();
-            j2.ShowDialog();
+            
 
         }
 
@@ -61,8 +60,7 @@ namespace ProjetoFinal
 
         private void btnAlterar_Click(object sender, EventArgs e)
         {
-            alt_excl aoe = new alt_excl();
-            aoe.ShowDialog();
+           
         }
 
         private void btn1_Click(object sender, EventArgs e)
@@ -222,6 +220,54 @@ namespace ProjetoFinal
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void txtNomeM_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            SqlConnection sql = new SqlConnection("Integrated Security=SSPI;Persist Security Info=False;User ID=sa;Initial Catalog=DBMaquinasGatec;Data Source=GA-DE-DK-TI-03");
+            SqlCommand command = new SqlCommand("insert into Maquinas(NomeMaquina, NumControle, UsuarioAtual, UsuarioAntigo, ServiceTag) values(@NomeMaquina, @NumControle, @UsuarioAtual, @UsuarioAntigo, @ServiceTag)", sql);
+            command.Parameters.Add("@NomeMaquina", SqlDbType.VarChar).Value = txtNomeM.Text;
+            command.Parameters.Add("@NumControle", SqlDbType.VarChar).Value = txtNumControle.Text;
+            command.Parameters.Add("@UsuarioAtual", SqlDbType.VarChar).Value = txtUserAtual.Text;
+            command.Parameters.Add("@ServiceTag", SqlDbType.VarChar).Value = txtService.Text;
+            command.Parameters.Add("@UsuarioAntigo", SqlDbType.VarChar).Value = txtUserAntigo.Text;
+
+
+            if (txtNomeM.Text != "" & txtNumControle.Text != "" & txtUserAtual.Text != "" & txtService.Text != "" & txtService.Text != "")
+            {
+
+                try
+                {
+                    sql.Open();
+                    command.ExecuteNonQuery();
+                    MessageBox.Show("Cadastro concluído com sucesso", "Máquinas Gatec v1.0", MessageBoxButtons.OK);
+                    txtNomeM.Text = "";
+                    txtNumControle.Text = "";
+                    txtUserAtual.Text = "";
+                    txtService.Text = "";
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                finally
+                {
+                    sql.Close();
+                }
+
+            }
+
+            else
+            {
+                MessageBox.Show("         PREENCHA OS CAMPOS CORRETAMENTE ! ! !", "Máquinas Gatec v1.0", MessageBoxButtons.OK);
+
+            }
         }
     }
 }

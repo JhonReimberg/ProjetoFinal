@@ -31,7 +31,6 @@ namespace ProjetoFinal
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Jan2));
             this.btn1 = new System.Windows.Forms.Button();
-            this.btnAlterar = new System.Windows.Forms.Button();
             this.btnADC = new System.Windows.Forms.Button();
             this.txtUserAtual = new System.Windows.Forms.TextBox();
             this.txtNumControle = new System.Windows.Forms.TextBox();
@@ -39,6 +38,8 @@ namespace ProjetoFinal
             this.txtNomeM = new System.Windows.Forms.TextBox();
             this.txtUserAntigo = new System.Windows.Forms.TextBox();
             this.btnCleanFilter = new System.Windows.Forms.Button();
+            this.btnAlterar = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btn1
@@ -55,31 +56,17 @@ namespace ProjetoFinal
             this.btn1.UseVisualStyleBackColor = false;
             this.btn1.Click += new System.EventHandler(this.btn1_Click);
             // 
-            // btnAlterar
-            // 
-            this.btnAlterar.BackColor = System.Drawing.Color.Transparent;
-            this.btnAlterar.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btnAlterar.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlterar.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnAlterar.Location = new System.Drawing.Point(437, 284);
-            this.btnAlterar.Name = "btnAlterar";
-            this.btnAlterar.Size = new System.Drawing.Size(155, 54);
-            this.btnAlterar.TabIndex = 21;
-            this.btnAlterar.Text = "ALTERAR OU EXCLUIR";
-            this.btnAlterar.UseVisualStyleBackColor = false;
-            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
-            // 
             // btnADC
             // 
             this.btnADC.BackColor = System.Drawing.Color.Transparent;
             this.btnADC.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnADC.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnADC.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnADC.Location = new System.Drawing.Point(437, 222);
+            this.btnADC.Location = new System.Drawing.Point(440, 113);
             this.btnADC.Name = "btnADC";
             this.btnADC.Size = new System.Drawing.Size(155, 52);
             this.btnADC.TabIndex = 23;
-            this.btnADC.Text = "ADICIONAR";
+            this.btnADC.Text = "CONFIRMAR ALTERAÇÃO";
             this.btnADC.UseVisualStyleBackColor = false;
             this.btnADC.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -148,6 +135,7 @@ namespace ProjetoFinal
             this.txtNomeM.TabIndex = 26;
             this.txtNomeM.Text = "NOME DA MAQUINA";
             this.txtNomeM.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtNomeM.TextChanged += new System.EventHandler(this.txtNomeM_TextChanged);
             this.txtNomeM.Enter += new System.EventHandler(this.txtNomeM_Enter);
             this.txtNomeM.Leave += new System.EventHandler(this.txtNomeM_Leave);
             // 
@@ -183,14 +171,44 @@ namespace ProjetoFinal
             this.btnCleanFilter.UseVisualStyleBackColor = true;
             this.btnCleanFilter.Click += new System.EventHandler(this.btnCleanFilter_Click);
             // 
+            // btnAlterar
+            // 
+            this.btnAlterar.BackColor = System.Drawing.Color.Transparent;
+            this.btnAlterar.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btnAlterar.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAlterar.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnAlterar.Location = new System.Drawing.Point(440, 175);
+            this.btnAlterar.Name = "btnAlterar";
+            this.btnAlterar.Size = new System.Drawing.Size(155, 54);
+            this.btnAlterar.TabIndex = 21;
+            this.btnAlterar.Text = "EXCLUIR MÁQUINA";
+            this.btnAlterar.UseVisualStyleBackColor = false;
+            this.btnAlterar.Click += new System.EventHandler(this.btnAlterar_Click);
+            // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button1.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.Location = new System.Drawing.Point(440, 46);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(155, 52);
+            this.button1.TabIndex = 35;
+            this.button1.Text = "ADICIONAR";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Jan2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.Gainsboro;
+            this.BackgroundImage = global::ProjetoFinal.Properties.Resources.do_agro_2;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(619, 351);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtUserAntigo);
             this.Controls.Add(this.txtUserAtual);
             this.Controls.Add(this.txtNumControle);
@@ -216,7 +234,6 @@ namespace ProjetoFinal
 
         #endregion
         private System.Windows.Forms.Button btn1;
-        private System.Windows.Forms.Button btnAlterar;
         private System.Windows.Forms.Button btnCleanFilter;
         private System.Windows.Forms.Button btnADC;
         private System.Windows.Forms.TextBox txtUserAtual;
@@ -224,5 +241,7 @@ namespace ProjetoFinal
         private System.Windows.Forms.TextBox txtService;
         private System.Windows.Forms.TextBox txtNomeM;
         private System.Windows.Forms.TextBox txtUserAntigo;
+        private System.Windows.Forms.Button btnAlterar;
+        private System.Windows.Forms.Button button1;
     }
 }
