@@ -30,7 +30,7 @@ namespace ProjetoFinal
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(alt_excl));
-            this.txtBoxUserAntigo = new System.Windows.Forms.TextBox();
+            this.txtUserAntigo = new System.Windows.Forms.TextBox();
             this.txtUserAtual = new System.Windows.Forms.TextBox();
             this.txtNumControle = new System.Windows.Forms.TextBox();
             this.txtService = new System.Windows.Forms.TextBox();
@@ -40,16 +40,16 @@ namespace ProjetoFinal
             this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // txtBoxUserAntigo
+            // txtUserAntigo
             // 
-            this.txtBoxUserAntigo.BackColor = System.Drawing.Color.Lavender;
-            this.txtBoxUserAntigo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.txtBoxUserAntigo.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
-            this.txtBoxUserAntigo.ForeColor = System.Drawing.SystemColors.Desktop;
-            this.txtBoxUserAntigo.Location = new System.Drawing.Point(79, 189);
-            this.txtBoxUserAntigo.Name = "txtBoxUserAntigo";
-            this.txtBoxUserAntigo.Size = new System.Drawing.Size(315, 22);
-            this.txtBoxUserAntigo.TabIndex = 22;
+            this.txtUserAntigo.BackColor = System.Drawing.Color.Lavender;
+            this.txtUserAntigo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
+            this.txtUserAntigo.Font = new System.Drawing.Font("Microsoft YaHei", 8.25F);
+            this.txtUserAntigo.ForeColor = System.Drawing.SystemColors.Desktop;
+            this.txtUserAntigo.Location = new System.Drawing.Point(79, 189);
+            this.txtUserAntigo.Name = "txtUserAntigo";
+            this.txtUserAntigo.Size = new System.Drawing.Size(315, 22);
+            this.txtUserAntigo.TabIndex = 22;
             // 
             // txtUserAtual
             // 
@@ -97,7 +97,7 @@ namespace ProjetoFinal
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(79, 287);
+            this.button1.Location = new System.Drawing.Point(12, 250);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(110, 30);
             this.button1.TabIndex = 23;
@@ -107,7 +107,7 @@ namespace ProjetoFinal
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(284, 287);
+            this.button2.Location = new System.Drawing.Point(12, 286);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(110, 30);
             this.button2.TabIndex = 24;
@@ -130,12 +130,12 @@ namespace ProjetoFinal
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.BackgroundImage = global::ProjetoFinal.Properties.Resources._2_1;
+            this.BackgroundImage = global::ProjetoFinal.Properties.Resources.do_agro_2;
             this.ClientSize = new System.Drawing.Size(470, 326);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.txtBoxUserAntigo);
+            this.Controls.Add(this.txtUserAntigo);
             this.Controls.Add(this.txtUserAtual);
             this.Controls.Add(this.txtNumControle);
             this.Controls.Add(this.txtService);
@@ -153,7 +153,7 @@ namespace ProjetoFinal
 
         #endregion
 
-        private System.Windows.Forms.TextBox txtBoxUserAntigo;
+        private System.Windows.Forms.TextBox txtUserAntigo;
         private System.Windows.Forms.TextBox txtUserAtual;
         private System.Windows.Forms.TextBox txtNumControle;
         private System.Windows.Forms.TextBox txtService;

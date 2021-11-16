@@ -122,7 +122,7 @@
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="txtNomeM.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 25</value>
+    <value>29, 25</value>
   </data>
   <data name="txtNomeM.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
@@ -147,7 +147,7 @@
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="txtService.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 63</value>
+    <value>29, 63</value>
   </data>
   <data name="txtService.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
@@ -171,7 +171,7 @@
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="txtNumControle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 100</value>
+    <value>29, 100</value>
   </data>
   <data name="txtNumControle.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
@@ -195,7 +195,7 @@
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="txtUserAtual.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 138</value>
+    <value>29, 138</value>
   </data>
   <data name="txtUserAtual.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
@@ -223,7 +223,7 @@
     <value>NoControl</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>34, 217</value>
+    <value>51, 217</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>139, 47</value>
@@ -244,13 +244,13 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>0</value>
   </data>
   <data name="txtBoxUserAntigo.Font" type="System.Drawing.Font, System.Drawing">
     <value>Microsoft YaHei, 8.25pt</value>
   </data>
   <data name="txtBoxUserAntigo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 177</value>
+    <value>29, 177</value>
   </data>
   <data name="txtBoxUserAntigo.Size" type="System.Drawing.Size, System.Drawing">
     <value>185, 22</value>
@@ -268,7 +268,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtBoxUserAntigo.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>1</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -277,7 +277,7 @@
     <value>8, 16</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>210, 292</value>
+    <value>242, 292</value>
   </data>
   <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
     <value>MV Boli, 8.25pt, style=Bold</value>
@@ -1413,6 +1413,9 @@
         AAAAAAAB//////////oAAAAAAAAAAf/////////6AAAAAAAAAAH/////////+gAAAAAAAAAB////////
         //oAAAAAAAAAAf////////////////////8=
 </value>
+  </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
   </data>
   <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
     <value>CenterParent</value>

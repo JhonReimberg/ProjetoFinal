@@ -39,8 +39,6 @@ namespace ProjetoFinal
             this.txtNomeM = new System.Windows.Forms.TextBox();
             this.txtUserAntigo = new System.Windows.Forms.TextBox();
             this.btnCleanFilter = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btn1
@@ -173,6 +171,7 @@ namespace ProjetoFinal
             // 
             // btnCleanFilter
             // 
+            this.btnCleanFilter.BackgroundImage = global::ProjetoFinal.Properties.Resources.edit_clear_icon_181105;
             this.btnCleanFilter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCleanFilter.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCleanFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -184,15 +183,6 @@ namespace ProjetoFinal
             this.btnCleanFilter.UseVisualStyleBackColor = true;
             this.btnCleanFilter.Click += new System.EventHandler(this.btnCleanFilter_Click);
             // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(523, 118);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 50);
-            this.pictureBox1.TabIndex = 35;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
             // Jan2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -200,8 +190,7 @@ namespace ProjetoFinal
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.Gainsboro;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(607, 354);
-            this.Controls.Add(this.pictureBox1);
+            this.ClientSize = new System.Drawing.Size(619, 351);
             this.Controls.Add(this.txtUserAntigo);
             this.Controls.Add(this.txtUserAtual);
             this.Controls.Add(this.txtNumControle);
@@ -220,7 +209,6 @@ namespace ProjetoFinal
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Máquinas Gatec v1.0";
             this.Load += new System.EventHandler(this.Jan2_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -236,6 +224,5 @@ namespace ProjetoFinal
         private System.Windows.Forms.TextBox txtService;
         private System.Windows.Forms.TextBox txtNomeM;
         private System.Windows.Forms.TextBox txtUserAntigo;
-        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

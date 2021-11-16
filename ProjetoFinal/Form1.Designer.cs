@@ -72,7 +72,7 @@ namespace ProjetoFinal
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.button1.BackColor = System.Drawing.Color.Transparent;
             resources.ApplyResources(this.button1, "button1");
             this.button1.ForeColor = System.Drawing.SystemColors.InfoText;
             this.button1.Name = "button1";
@@ -94,8 +94,8 @@ namespace ProjetoFinal
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.BackgroundImage = global::ProjetoFinal.Properties.Resources.do_agro_2;
-            this.Controls.Add(this.txtBoxUserAntigo);
             this.Controls.Add(this.button1);
+            this.Controls.Add(this.txtBoxUserAntigo);
             this.Controls.Add(this.txtUserAtual);
             this.Controls.Add(this.txtNumControle);
             this.Controls.Add(this.txtService);
