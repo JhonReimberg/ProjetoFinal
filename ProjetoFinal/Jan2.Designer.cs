@@ -62,7 +62,7 @@ namespace ProjetoFinal
             this.btnADC.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnADC.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnADC.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnADC.Location = new System.Drawing.Point(440, 113);
+            this.btnADC.Location = new System.Drawing.Point(440, 108);
             this.btnADC.Name = "btnADC";
             this.btnADC.Size = new System.Drawing.Size(155, 52);
             this.btnADC.TabIndex = 23;
@@ -178,7 +178,7 @@ namespace ProjetoFinal
             this.btnAlterar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAlterar.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAlterar.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.btnAlterar.Location = new System.Drawing.Point(440, 175);
+            this.btnAlterar.Location = new System.Drawing.Point(440, 170);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(155, 54);
             this.btnAlterar.TabIndex = 21;
@@ -192,7 +192,7 @@ namespace ProjetoFinal
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.button1.Location = new System.Drawing.Point(440, 46);
+            this.button1.Location = new System.Drawing.Point(440, 41);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(155, 52);
             this.button1.TabIndex = 35;

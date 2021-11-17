@@ -30,12 +30,14 @@ namespace ProjetoFinal
         private void button1_Click(object sender, EventArgs e)
         {
             SqlConnection sql = new SqlConnection("Integrated Security=SSPI;Persist Security Info=False;User ID=sa;Initial Catalog=DBMaquinasGatec;Data Source=GA-DE-DK-TI-03");
-            SqlCommand command = new SqlCommand("update Maquinas set NomeMaquina=@NomeMaquina, NumControle=@NumControle, UsuarioAtual=@UsuarioAtual, UsuarioAntigo=@UsuarioAntigo, ServiceTag=@ServiceTag where NomeMaquina=@NomeMaquina", sql);
+            SqlCommand command = new SqlCommand("update Maquinas set NomeMaquina=@NomeMaquina, NumControle=@NumControle, UsuarioAtual=@UsuarioAtual, teste=@teste, UsuarioAntigo=@UsuarioAntigo, ServiceTag=@ServiceTag where teste=@teste", sql);
             command.Parameters.Add("@NomeMaquina", SqlDbType.VarChar).Value = txtNomeM.Text;
             command.Parameters.Add("@NumControle", SqlDbType.VarChar).Value = txtNumControle.Text;
             command.Parameters.Add("@UsuarioAtual", SqlDbType.VarChar).Value = txtUserAtual.Text;
             command.Parameters.Add("@ServiceTag", SqlDbType.VarChar).Value = txtService.Text;
             command.Parameters.Add("@UsuarioAntigo", SqlDbType.VarChar).Value = txtUserAntigo.Text;
+            command.Parameters.Add("@teste", SqlDbType.VarChar).Value = txtUserAntigo.Text;
+
 
 
             if (txtNomeM.Text != "" & txtNumControle.Text != "" & txtUserAtual.Text != "" & txtService.Text != "" & txtService.Text != "")
