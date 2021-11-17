@@ -146,5 +146,11 @@
   <ItemGroup>
     <None Include="Resources\sunset-horizon-clean-sky-5k.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thumb2-4k-yosemite-valley-winter-mountain-landscape-forest.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\90aebf5af7875ac230a8041c067577da.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

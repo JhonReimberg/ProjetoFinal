@@ -127,6 +127,9 @@
   <data name="download-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="sunset-horizon-clean-sky-5k1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sunset-horizon-clean-sky-5k1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="do-agro-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\do-agro-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -147,6 +150,9 @@
   </data>
   <data name="photo-1548679847-1d4ff48016c7" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\photo-1548679847-1d4ff48016c7.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="thumb2-4k-yosemite-valley-winter-mountain-landscape-forest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\thumb2-4k-yosemite-valley-winter-mountain-landscape-forest.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icone-x-" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icone-x-.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -172,7 +178,7 @@
   <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\download.jfif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="sunset-horizon-clean-sky-5k1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\sunset-horizon-clean-sky-5k1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="90aebf5af7875ac230a8041c067577da" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\90aebf5af7875ac230a8041c067577da.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

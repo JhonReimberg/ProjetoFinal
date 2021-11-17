@@ -83,6 +83,16 @@ namespace ProjetoFinal.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _90aebf5af7875ac230a8041c067577da {
+            get {
+                object obj = ResourceManager.GetObject("90aebf5af7875ac230a8041c067577da", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Agricultura_Giro_Rural {
             get {
                 object obj = ResourceManager.GetObject("Agricultura-Giro-Rural", resourceCulture);
@@ -246,6 +256,16 @@ namespace ProjetoFinal.Properties {
         internal static System.Drawing.Bitmap sunset_horizon_clean_sky_5k1 {
             get {
                 object obj = ResourceManager.GetObject("sunset-horizon-clean-sky-5k1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap thumb2_4k_yosemite_valley_winter_mountain_landscape_forest {
+            get {
+                object obj = ResourceManager.GetObject("thumb2-4k-yosemite-valley-winter-mountain-landscape-forest", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

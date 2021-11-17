@@ -82,8 +82,9 @@ namespace ProjetoFinal
             this.txtUserAtual.Name = "txtUserAtual";
             this.txtUserAtual.Size = new System.Drawing.Size(374, 20);
             this.txtUserAtual.TabIndex = 32;
-            this.txtUserAtual.Text = "USUÁRIO ATUAL";
+            this.txtUserAtual.Text = "USUARIO ATUAL";
             this.txtUserAtual.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.txtUserAtual.TextChanged += new System.EventHandler(this.txtUserAtual_TextChanged);
             this.txtUserAtual.Enter += new System.EventHandler(this.txtUserAtual_Enter);
             this.txtUserAtual.Leave += new System.EventHandler(this.txtUserAtual_Leave);
             // 
@@ -205,9 +206,9 @@ namespace ProjetoFinal
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.BackgroundImage = global::ProjetoFinal.Properties.Resources.do_agro_2;
+            this.BackgroundImage = global::ProjetoFinal.Properties.Resources._90aebf5af7875ac230a8041c067577da;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(619, 351);
+            this.ClientSize = new System.Drawing.Size(619, 302);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.txtUserAntigo);
             this.Controls.Add(this.txtUserAtual);

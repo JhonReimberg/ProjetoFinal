@@ -29,7 +29,45 @@ namespace ProjetoFinal
        
         private void button1_Click(object sender, EventArgs e)
         {
-            
+            SqlConnection sql = new SqlConnection("Integrated Security=SSPI;Persist Security Info=False;User ID=sa;Initial Catalog=DBMaquinasGatec;Data Source=GA-DE-DK-TI-03");
+            SqlCommand command = new SqlCommand("update Maquinas set NomeMaquina=@NomeMaquina, NumControle=@NumControle, UsuarioAtual=@UsuarioAtual, UsuarioAntigo=@UsuarioAntigo, ServiceTag=@ServiceTag where NomeMaquina=@NomeMaquina", sql);
+            command.Parameters.Add("@NomeMaquina", SqlDbType.VarChar).Value = txtNomeM.Text;
+            command.Parameters.Add("@NumControle", SqlDbType.VarChar).Value = txtNumControle.Text;
+            command.Parameters.Add("@UsuarioAtual", SqlDbType.VarChar).Value = txtUserAtual.Text;
+            command.Parameters.Add("@ServiceTag", SqlDbType.VarChar).Value = txtService.Text;
+            command.Parameters.Add("@UsuarioAntigo", SqlDbType.VarChar).Value = txtUserAntigo.Text;
+
+
+            if (txtNomeM.Text != "" & txtNumControle.Text != "" & txtUserAtual.Text != "" & txtService.Text != "" & txtService.Text != "")
+            {
+
+                try
+                {
+                    sql.Open();
+                    command.ExecuteNonQuery();
+                    MessageBox.Show("Cadastro alterado com sucesso", "Máquinas Gatec v1.0", MessageBoxButtons.OK);
+                    txtNomeM.Text = "";
+                    txtNumControle.Text = "";
+                    txtUserAtual.Text = "";
+                    txtService.Text = "";
+                }
+
+                catch (Exception ex)
+                {
+                    MessageBox.Show(ex.Message);
+                }
+                finally
+                {
+                    sql.Close();
+                }
+
+            }
+
+            else
+            {
+                MessageBox.Show("         Erro ao alterar usuário ! ! !", "Máquinas Gatec v1.0", MessageBoxButtons.OK);
+
+            }
 
         }
 
@@ -60,7 +98,29 @@ namespace ProjetoFinal
 
         private void btnAlterar_Click(object sender, EventArgs e)
         {
-           
+            SqlConnection sql = new SqlConnection("Integrated Security=SSPI;Persist Security Info=False;User ID=sa;Initial Catalog=DBMaquinasGatec;Data Source=GA-DE-DK-TI-03");
+            SqlCommand command = new SqlCommand("delete from Maquinas where NomeMaquina=@NomeMaquina", sql);
+            command.Parameters.Add("@NomeMaquina", SqlDbType.VarChar).Value = txtNomeM.Text;           
+
+            try
+            {
+                sql.Open();
+                command.ExecuteNonQuery();
+                MessageBox.Show("Cadastro excluído com sucesso", "Máquinas Gatec v1.0", MessageBoxButtons.OK);
+                txtNumControle.Text = "";
+                txtUserAtual.Text = "";
+                txtUserAntigo.Text = "";
+                txtService.Text = "";
+                txtNomeM.Text = "";
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            finally
+            {
+                sql.Close();
+            }
         }
 
         private void btn1_Click(object sender, EventArgs e)
@@ -268,6 +328,11 @@ namespace ProjetoFinal
                 MessageBox.Show("         PREENCHA OS CAMPOS CORRETAMENTE ! ! !", "Máquinas Gatec v1.0", MessageBoxButtons.OK);
 
             }
+        }
+
+        private void txtUserAtual_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
