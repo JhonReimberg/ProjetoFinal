@@ -184,7 +184,7 @@ namespace ProjetoFinal
             if(txtNomeM.Text == "NOME DA MAQUINA")
             {
                 txtNomeM.Text = "";
-                txtNomeM.ForeColor = Color.Black;
+                txtNomeM.ForeColor = Color.White;
             }
         }
 
@@ -193,7 +193,7 @@ namespace ProjetoFinal
             if (txtNomeM.Text == "")
             {
                 txtNomeM.Text = "NOME DA MAQUINA";
-                txtNomeM.ForeColor = Color.Gray;
+                txtNomeM.ForeColor = Color.White;
 
             }
         }
@@ -203,7 +203,7 @@ namespace ProjetoFinal
             if (txtService.Text == "SERVICE TAG")
             {
                 txtService.Text = "";
-                txtService.ForeColor = Color.Black;
+                txtService.ForeColor = Color.White;
             }
         }
 
@@ -212,7 +212,7 @@ namespace ProjetoFinal
             if (txtService.Text == "")
             {
                 txtService.Text = "SERVICE TAG";
-                txtService.ForeColor = Color.Gray;
+                txtService.ForeColor = Color.White;
 
             }
         }
@@ -223,7 +223,7 @@ namespace ProjetoFinal
             if (txtNumControle.Text == "Nº CONTROLE")
             {
                 txtNumControle.Text = "";
-                txtNumControle.ForeColor = Color.Black;
+                txtNumControle.ForeColor = Color.White;
             }
 
         }
@@ -233,7 +233,7 @@ namespace ProjetoFinal
             if (txtNumControle.Text == "")
             {
                 txtNumControle.Text = "Nº CONTROLE";
-                txtNumControle.ForeColor = Color.Gray;
+                txtNumControle.ForeColor = Color.White;
 
             }
 
@@ -244,7 +244,7 @@ namespace ProjetoFinal
             if (txtUserAtual.Text == "USUARIO ATUAL")
             {
                 txtUserAtual.Text = "";
-                txtUserAtual.ForeColor = Color.Black;
+                txtUserAtual.ForeColor = Color.White;
             }
 
         }
@@ -254,7 +254,7 @@ namespace ProjetoFinal
             if (txtUserAtual.Text == "")
             {
                 txtUserAtual.Text = "USUARIO ATUAL";
-                txtUserAtual.ForeColor = Color.Gray;
+                txtUserAtual.ForeColor = Color.White;
 
             }
         }
@@ -264,7 +264,7 @@ namespace ProjetoFinal
             if (txtUserAntigo.Text == "USUARIO ANTIGO")
             {
                 txtUserAntigo.Text = "";
-                txtUserAntigo.ForeColor = Color.Black;
+                txtUserAntigo.ForeColor = Color.White;
             }
 
         }
@@ -274,7 +274,7 @@ namespace ProjetoFinal
             if (txtUserAntigo.Text == "")
             {
                 txtUserAntigo.Text = "USUARIO ANTIGO";
-                txtUserAntigo.ForeColor = Color.Gray;
+                txtUserAntigo.ForeColor = Color.White;
 
             }
         }

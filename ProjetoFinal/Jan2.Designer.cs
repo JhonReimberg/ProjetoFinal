@@ -47,7 +47,7 @@ namespace ProjetoFinal
             this.btn1.BackColor = System.Drawing.Color.Transparent;
             this.btn1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn1.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btn1.ForeColor = System.Drawing.Color.SteelBlue;
             this.btn1.Location = new System.Drawing.Point(119, 239);
             this.btn1.Name = "btn1";
             this.btn1.Size = new System.Drawing.Size(173, 48);
@@ -61,7 +61,7 @@ namespace ProjetoFinal
             this.btnADC.BackColor = System.Drawing.Color.Transparent;
             this.btnADC.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnADC.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnADC.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnADC.ForeColor = System.Drawing.Color.SteelBlue;
             this.btnADC.Location = new System.Drawing.Point(440, 108);
             this.btnADC.Name = "btnADC";
             this.btnADC.Size = new System.Drawing.Size(155, 52);
@@ -74,10 +74,10 @@ namespace ProjetoFinal
             // 
             this.txtUserAtual.AcceptsReturn = true;
             this.txtUserAtual.AcceptsTab = true;
-            this.txtUserAtual.BackColor = System.Drawing.Color.Lavender;
+            this.txtUserAtual.BackColor = System.Drawing.Color.SteelBlue;
             this.txtUserAtual.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtUserAtual.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserAtual.ForeColor = System.Drawing.Color.Gray;
+            this.txtUserAtual.ForeColor = System.Drawing.Color.White;
             this.txtUserAtual.Location = new System.Drawing.Point(22, 155);
             this.txtUserAtual.Name = "txtUserAtual";
             this.txtUserAtual.Size = new System.Drawing.Size(374, 20);
@@ -92,10 +92,10 @@ namespace ProjetoFinal
             // 
             this.txtNumControle.AcceptsReturn = true;
             this.txtNumControle.AcceptsTab = true;
-            this.txtNumControle.BackColor = System.Drawing.Color.Lavender;
+            this.txtNumControle.BackColor = System.Drawing.Color.SteelBlue;
             this.txtNumControle.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtNumControle.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNumControle.ForeColor = System.Drawing.Color.Gray;
+            this.txtNumControle.ForeColor = System.Drawing.Color.White;
             this.txtNumControle.Location = new System.Drawing.Point(22, 118);
             this.txtNumControle.Name = "txtNumControle";
             this.txtNumControle.Size = new System.Drawing.Size(374, 20);
@@ -109,10 +109,10 @@ namespace ProjetoFinal
             // 
             this.txtService.AcceptsReturn = true;
             this.txtService.AcceptsTab = true;
-            this.txtService.BackColor = System.Drawing.Color.Lavender;
+            this.txtService.BackColor = System.Drawing.Color.SteelBlue;
             this.txtService.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtService.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtService.ForeColor = System.Drawing.Color.Gray;
+            this.txtService.ForeColor = System.Drawing.Color.White;
             this.txtService.Location = new System.Drawing.Point(22, 83);
             this.txtService.Name = "txtService";
             this.txtService.Size = new System.Drawing.Size(374, 20);
@@ -126,10 +126,10 @@ namespace ProjetoFinal
             // 
             this.txtNomeM.AcceptsReturn = true;
             this.txtNomeM.AcceptsTab = true;
-            this.txtNomeM.BackColor = System.Drawing.Color.Lavender;
+            this.txtNomeM.BackColor = System.Drawing.Color.SteelBlue;
             this.txtNomeM.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtNomeM.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNomeM.ForeColor = System.Drawing.Color.Gray;
+            this.txtNomeM.ForeColor = System.Drawing.Color.White;
             this.txtNomeM.Location = new System.Drawing.Point(22, 46);
             this.txtNomeM.Name = "txtNomeM";
             this.txtNomeM.Size = new System.Drawing.Size(374, 20);
@@ -144,10 +144,10 @@ namespace ProjetoFinal
             // 
             this.txtUserAntigo.AcceptsReturn = true;
             this.txtUserAntigo.AcceptsTab = true;
-            this.txtUserAntigo.BackColor = System.Drawing.Color.Lavender;
+            this.txtUserAntigo.BackColor = System.Drawing.Color.SteelBlue;
             this.txtUserAntigo.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.txtUserAntigo.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserAntigo.ForeColor = System.Drawing.Color.Gray;
+            this.txtUserAntigo.ForeColor = System.Drawing.Color.White;
             this.txtUserAntigo.Location = new System.Drawing.Point(22, 195);
             this.txtUserAntigo.Name = "txtUserAntigo";
             this.txtUserAntigo.Size = new System.Drawing.Size(374, 20);
@@ -164,6 +164,7 @@ namespace ProjetoFinal
             this.btnCleanFilter.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.btnCleanFilter.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCleanFilter.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCleanFilter.ForeColor = System.Drawing.Color.SteelBlue;
             this.btnCleanFilter.Location = new System.Drawing.Point(298, 250);
             this.btnCleanFilter.Name = "btnCleanFilter";
             this.btnCleanFilter.Size = new System.Drawing.Size(28, 24);
@@ -177,7 +178,7 @@ namespace ProjetoFinal
             this.btnAlterar.BackColor = System.Drawing.Color.Transparent;
             this.btnAlterar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnAlterar.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnAlterar.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.btnAlterar.ForeColor = System.Drawing.Color.SteelBlue;
             this.btnAlterar.Location = new System.Drawing.Point(440, 170);
             this.btnAlterar.Name = "btnAlterar";
             this.btnAlterar.Size = new System.Drawing.Size(155, 54);
@@ -191,7 +192,7 @@ namespace ProjetoFinal
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Lucida Sans", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlDarkDark;
+            this.button1.ForeColor = System.Drawing.Color.SteelBlue;
             this.button1.Location = new System.Drawing.Point(440, 41);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(155, 52);
@@ -205,8 +206,7 @@ namespace ProjetoFinal
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoValidate = System.Windows.Forms.AutoValidate.EnableAllowFocusChange;
-            this.BackColor = System.Drawing.Color.Gainsboro;
-            this.BackgroundImage = global::ProjetoFinal.Properties.Resources._90aebf5af7875ac230a8041c067577da;
+            this.BackColor = System.Drawing.Color.White;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(619, 302);
             this.Controls.Add(this.button1);
@@ -225,7 +225,6 @@ namespace ProjetoFinal
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Jan2";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Máquinas Gatec v1.0";
             this.Load += new System.EventHandler(this.Jan2_Load);
             this.ResumeLayout(false);
